@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap:100,200,300,400,500,600,700');
+
+/* Colors */
+
+.bg-color-navbar {
+    background: #6e6a6a;
+}
+
+/* Special paddings/margins/texts */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto Slab", sans-serif;
+}
+
+/* Heading */
+
+header {
+    display: block;
+    align-items: center;
+    top: 0;
+    left: 0;
+}
+
+.navbar-brand {
+    display: flex;
+    font-weight: 700;
+}
+
+.logo-icon {
+    height: 50px;
+    padding: 3px 0 3px 0;
+}
+
+.logo-text {
+    margin: 10px;
+    text-transform: uppercase;
+}
+
+.navbar .navbar-nav a {
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+.nav-item {
+    text-align: center;
+}
+
+#mainNav {
+    padding: 16px 16px 16px 0px;
+}
+
+#mainNav li {
+    font-size: 14px;
+    padding: 5px;
+}
+
+.navbar .navbar-toggler {
+    border: 1px solid #504e4e;
+}
+
+.navbar-collapse {
+    align-items: center;
+}
+
+/* Media Queries */
+
+@media(min-width: 769px) {
+    .navbar {
+        height: 60px;
+    }
+}
