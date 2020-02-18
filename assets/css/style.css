@@ -22,34 +22,41 @@ body {
 
 header {
     display: block;
-    align-items: center;
     top: 0;
     left: 0;
 }
 
 .navbar-brand {
     display: flex;
-    font-weight: 700;
+    align-items: center;
 }
 
 .logo-icon {
     height: 50px;
-    padding: 3px 0 3px 0;
+    margin-top: 3px;
+    margin-bottom: 3px;
 }
 
 .logo-text {
-    margin: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: .2px;
+    margin: 5px 10px 5px 10px;
     text-transform: uppercase;
 }
 
 .navbar .navbar-nav a {
-    font-weight: 700;
+    font-weight: 500;
     letter-spacing: 1px;
     text-decoration: none;
 }
 
 .nav-item {
     text-align: center;
+}
+
+.nav-item a {
+    color: rgba(29, 27, 27, 0.5);
 }
 
 #mainNav {
@@ -61,6 +68,11 @@ header {
     padding: 5px;
 }
 
+.active {
+    font-weight: 700;
+    color: #ffffff;
+}
+
 .navbar .navbar-toggler {
     border: 1px solid #504e4e;
 }
@@ -69,10 +81,22 @@ header {
     align-items: center;
 }
 
+/* Hover.css */
+
+.nav-item a:hover {
+    background-color: #504e4e;
+    color: #6e6a6a;
+    border-radius: 12px;
+}
+
 /* Media Queries */
 
 @media(min-width: 769px) {
     .navbar {
         height: 60px;
+    }
+    
+    .logo-text {
+        font-size: 32px;
     }
 }
