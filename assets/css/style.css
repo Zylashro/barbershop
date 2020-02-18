@@ -1,11 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap:100,200,300,400,500,600,700');
 
-/* Colors */
-
-.bg-color-navbar {
-    background: #6e6a6a;
-}
-
 /* Special paddings/margins/texts */
 
 * {
@@ -18,23 +12,26 @@ body {
     font-family: "Roboto Slab", sans-serif;
 }
 
-/* Heading */
+/* Header */
 
-header {
-    display: block;
-    top: 0;
-    left: 0;
+.navbar {
+    padding: 0 1rem;
+}
+
+.navbar-bg-color {
+    background: #6e6a6a;
 }
 
 .navbar-brand {
     display: flex;
     align-items: center;
+    padding-bottom: 0;
+    padding-top: 0;
 }
 
 .logo-icon {
-    height: 50px;
-    margin-top: 3px;
-    margin-bottom: 3px;
+    height: 40px;
+    margin: 5px 0;
 }
 
 .logo-text {
@@ -45,27 +42,30 @@ header {
     text-transform: uppercase;
 }
 
-.navbar .navbar-nav a {
-    font-weight: 500;
-    letter-spacing: 1px;
-    text-decoration: none;
+#mainNav {
+    padding: 10px 16px 10px 0px;
 }
 
 .nav-item {
     text-align: center;
 }
 
-.nav-item a {
+.main-nav-item {
+    font-size: 14px;
+    padding: 5px;
+}
+
+.main-nav-link {
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
     color: rgba(29, 27, 27, 0.5);
 }
 
-#mainNav {
-    padding: 16px 16px 16px 0px;
-}
-
-#mainNav li {
-    font-size: 14px;
-    padding: 5px;
+.main-nav-link:hover {
+    background-color: #504e4e;
+    color: #6e6a6a;
+    border-radius: 12px;
 }
 
 .active {
@@ -74,28 +74,21 @@ header {
 }
 
 .navbar .navbar-toggler {
-    border: 1px solid #504e4e;
+    border: 0;
 }
 
 .navbar-collapse {
     align-items: center;
 }
 
-/* Hover.css */
-
-.nav-item a:hover {
-    background-color: #504e4e;
-    color: #6e6a6a;
-    border-radius: 12px;
-}
-
 /* Media Queries */
 
 @media(min-width: 769px) {
-    .navbar {
-        height: 60px;
+    .logo-icon {
+        height: 50px;
+        margin: 0;
     }
-    
+
     .logo-text {
         font-size: 32px;
     }
