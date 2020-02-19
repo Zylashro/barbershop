@@ -51,7 +51,7 @@ body {
 }
 
 .main-nav-item {
-    font-size: 14px;
+    font-size: 20px;
     padding: 5px;
 }
 
@@ -79,6 +79,66 @@ body {
 
 .navbar-collapse {
     align-items: center;
+}
+
+/* Footer */
+
+footer {
+    background: #6e6a6a;
+    color: #ffffff;
+}
+
+.footer-container {
+    padding: 15px;
+    padding-bottom: 0px;
+}
+
+.footer-container p {
+    margin-bottom: 0;   
+}
+
+.footer-heading {
+    margin-bottom: 8px;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+#footer-details, 
+#footer-help {
+    margin-bottom: 16px;
+}
+
+.details {
+    font-size: 12px;
+    font-weight: 300;
+    padding-left: 15px;
+}
+
+#footer-help a {
+    float: left;
+    clear: both;
+    overflow: hidden;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+#footer-help a:hover,
+.social-links li a:hover {
+    color: rgba(255, 255, 255, .5);
+}
+
+.social-links li a {
+    padding: 0 1px;
+    font-size: 52px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.credit {
+    font-size: 12px;
+    text-align: center;
+    margin-top: 10px;
 }
 
 /* Media Queries */
