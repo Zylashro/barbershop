@@ -149,20 +149,22 @@ body {
 .blockquote {
     margin-bottom: 20px;
     margin-right: 10px;
-    padding-left: 24px;
-    padding-right: 24px;
 }
 
 .blockquote p {
     margin-bottom: 0;
 }
 
+/* The idea and some style for the .quote-style-bar's, text, and credit come from Jake Rocheleau(_jro) at http://jsfiddle.net/_jro/RXa65/ */
+
 .quote-style-bar-pic {
-    padding-left: 16px; 
-    border-left: 5px solid #504e4e; 
+    border-left: 0; 
+    padding-left: 0;
 }
 
 .quote-style-bar-text {
+    padding-left: 16px; 
+    border-left: 5px solid #504e4e; 
 }
 
 .quote-style-text {
@@ -267,11 +269,14 @@ footer {
     .divider {
         width: 140px;
     }
-}
 
-@media(max-width: 768px) {
-    .quote-style-bar-text {
+    .quote-style-bar-pic {
         padding-left: 16px; 
         border-left: 5px solid #504e4e; 
+    }
+
+    .quote-style-bar-text {
+        border-left: 0;
+        padding-left: 0;
     }
 }
