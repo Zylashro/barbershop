@@ -179,6 +179,34 @@ body {
     font-weight: 500;
 }
 
+/* Service.html */
+
+.service-container {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.card-header {
+    text-align: center;
+    background-color: #6e6a6a;
+}
+
+.card-header p {
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.btn-link, 
+.btn-link:hover {
+    color: #ffffff;
+}
+
+.card-body {
+    background-color: #8c8785;
+    color: #eeeeee;
+}
+
+
 /* Footer */
 
 footer {
