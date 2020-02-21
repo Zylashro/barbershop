@@ -202,12 +202,19 @@ body {
 }
 
 .card-body {
+    font-size: 14px;
     background-color: #8c8785;
     color: #eeeeee;
 }
 
 .service-item-info {
     margin-bottom: 20px;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #eeeeee;
+}
+
+.service-item-info-mobile {
     text-transform: uppercase;
     font-size: 16px;
     color: #eeeeee;
@@ -315,5 +322,9 @@ footer {
     .quote-style-bar-text {
         border-left: 0;
         padding-left: 0;
+    }
+
+    .card-body {
+        font-size: 16px;
     }
 }
