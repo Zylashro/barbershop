@@ -206,6 +206,20 @@ body {
     color: #eeeeee;
 }
 
+.service-item-info {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #eeeeee;
+}
+
+.service-item-info-time {
+    float: left;
+}
+
+.service-item-info-price {
+    float: right;
+}
 
 /* Footer */
 
