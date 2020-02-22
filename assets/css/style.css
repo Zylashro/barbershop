@@ -141,7 +141,7 @@ body {
     width: 100px;
 }
 
-.rounded-circle {
+.quote-img {
     height: 100px;
     width: 100px;
 }
@@ -177,6 +177,84 @@ body {
     margin-left: 20px;
     font-size: 18px;
     font-weight: 500;
+}
+
+/* Service.html */
+
+.service-container {
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.service-info-container {
+    padding-bottom: 60px;
+    margin-bottom: 60px;
+    border-bottom: 1px solid #e0dede;
+}
+
+.service-info-container h2 {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.service-info-body {
+    margin-bottom: 16px;
+    font-size: 16px;
+}
+
+.service-add-info-mobile {
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.service-add-info {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.service-add-info img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.service-add-info-time {
+    float: left;
+}
+
+.service-add-info-price {
+    float: right;
+}
+
+.btn {
+    margin-top: 16px;
+    width: 100%;
+}
+
+.btn-style,
+.btn-style:visited {
+    background-color: #504e4e;
+    border-color: #504e4e;
+    color: #eeeeee;
+}
+
+.btn-style:hover {
+    background-color: #6e6a6a;
+    border-color: #6e6a6a;
+    color: rgba(29, 27, 27, 0.5);
+}
+
+.service-cancel-policy {
+    font-size: 18px;
+}
+
+.service-cancel-policy h2 {
+    margin-bottom: 16px;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 400;
 }
 
 /* Footer */
@@ -273,5 +351,14 @@ footer {
     .quote-style-bar-text {
         border-left: 0;
         padding-left: 0;
+    }
+
+    .service-info-body {
+        margin-bottom: 8px;
+        font-size: 18px;
+    }
+
+    .btn {
+        margin-top: 8px;
     }
 }
