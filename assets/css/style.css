@@ -141,7 +141,7 @@ body {
     width: 100px;
 }
 
-.rounded-circle {
+.quote-img {
     height: 100px;
     width: 100px;
 }
@@ -186,46 +186,75 @@ body {
     padding-bottom: 60px;
 }
 
-.card-header {
-    text-align: center;
-    background-color: #6e6a6a;
+.service-info-container {
+    padding-bottom: 60px;
+    margin-bottom: 60px;
+    border-bottom: 1px solid #e0dede;
 }
 
-.card-header p {
-    text-transform: uppercase;
-    color: #ffffff;
-}
-
-.btn-link, 
-.btn-link:hover {
-    color: #ffffff;
-}
-
-.card-body {
-    font-size: 14px;
-    background-color: #8c8785;
-    color: #eeeeee;
-}
-
-.service-item-info {
+.service-info-container h2 {
     margin-bottom: 20px;
     text-transform: uppercase;
-    font-size: 16px;
-    color: #eeeeee;
+    font-size: 25px;
+    font-weight: 400;
 }
 
-.service-item-info-mobile {
+.service-info-body {
+    margin-bottom: 16px;
+    font-size: 16px;
+}
+
+.service-add-info-mobile {
     text-transform: uppercase;
-    font-size: 16px;
-    color: #eeeeee;
+    font-size: 20px;
 }
 
-.service-item-info-time {
+.service-add-info {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+.service-add-info img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.service-add-info-time {
     float: left;
 }
 
-.service-item-info-price {
+.service-add-info-price {
     float: right;
+}
+
+.btn {
+    margin-top: 16px;
+    width: 100%;
+}
+
+.btn-style,
+.btn-style:visited {
+    background-color: #504e4e;
+    border-color: #504e4e;
+    color: #eeeeee;
+}
+
+.btn-style:hover {
+    background-color: #6e6a6a;
+    border-color: #6e6a6a;
+    color: rgba(29, 27, 27, 0.5);
+}
+
+.service-cancel-policy {
+    font-size: 18px;
+}
+
+.service-cancel-policy h2 {
+    margin-bottom: 16px;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 400;
 }
 
 /* Footer */
@@ -324,7 +353,12 @@ footer {
         padding-left: 0;
     }
 
-    .card-body {
-        font-size: 16px;
+    .service-info-body {
+        margin-bottom: 8px;
+        font-size: 18px;
+    }
+
+    .btn {
+        margin-top: 8px;
     }
 }
