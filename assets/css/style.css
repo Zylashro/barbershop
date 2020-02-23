@@ -151,10 +151,6 @@ body {
     margin-right: 10px;
 }
 
-.blockquote p {
-    margin-bottom: 0;
-}
-
 /* The idea and some style for the .quote-style-bar's, text, and credit come from Jake Rocheleau(_jro) at http://jsfiddle.net/_jro/RXa65/ */
 
 .quote-style-bar-pic {
@@ -171,6 +167,7 @@ body {
     font-style: italic; 
     font-size: 14px; 
     color: #8c8785;
+    margin-bottom: 0;
 }
 
 .quote-credit {
@@ -192,7 +189,7 @@ body {
     border-bottom: 1px solid #e0dede;
 }
 
-.service-info-container h2 {
+.service-info-heading {
     margin-bottom: 20px;
     text-transform: uppercase;
     font-size: 25px;
@@ -215,7 +212,7 @@ body {
     font-size: 20px;
 }
 
-.service-add-info img {
+.service-add-info-img {
     width: 100%;
     margin-bottom: 20px;
 }
@@ -250,7 +247,7 @@ body {
     font-size: 16px;
 }
 
-.service-cancel-policy h2 {
+.service-cancel-policy-heading {
     margin-bottom: 16px;
     text-transform: uppercase;
     font-size: 25px;
@@ -260,22 +257,21 @@ body {
 /* about.html */
 
 .about-container {
-    margin: 80px auto 90px;
+    margin: 40px auto 40px;
 }
 
-.about-container h2,
-.location-container h2 {
+.about-heading {
     margin-bottom: 20px;
     text-transform: uppercase;
     font-size: 25px;
     font-weight: 400;
 }
 
-.about-body {
+.about-text-style {
     font-size: 16px;
 }
 
-.about-body li {
+.about-list-style {
     margin-top: 20px;
     margin-left: 40px;
 }
@@ -286,7 +282,7 @@ body {
     height: 375px;
 }
 
-.map-container iframe{
+.iframe-container {
     left: 0;
     top: 0;
     height: 80%;
@@ -297,17 +293,13 @@ body {
 
 /* Footer */
 
-footer {
-    background: #6e6a6a;
+.footer-container {
+    padding: 15px 15px 5px 15px;
     color: #ffffff;
 }
 
-.footer-container {
-    padding: 15px 15px 5px 15px;
-}
-
-.footer-container p {
-    margin-bottom: 0;   
+.footer-bg-color {
+    background: #6e6a6a;
 }
 
 .footer-heading {
@@ -353,13 +345,17 @@ footer {
     text-align: center;
 }
 
+.footer-container-text-style {
+    margin-bottom: 0;   
+}
+
 .credit {
     font-size: 12px;
     text-align: center;
     margin-top: 10px;
 }
 
-.credit a {
+.credit-link-style {
     color: rgba(255, 255, 255, .5);
     text-decoration: none;
 }
@@ -398,6 +394,10 @@ footer {
 
     .btn {
         margin-top: 8px;
+    }
+
+    .about-container {
+        margin: 80px auto 90px;
     }
 
     .about-body {
