@@ -179,7 +179,7 @@ body {
     font-weight: 500;
 }
 
-/* Service.html */
+/* service.html */
 
 .service-container {
     padding-top: 60px;
@@ -247,7 +247,7 @@ body {
 }
 
 .service-cancel-policy {
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .service-cancel-policy h2 {
@@ -255,6 +255,44 @@ body {
     text-transform: uppercase;
     font-size: 25px;
     font-weight: 400;
+}
+
+/* about.html */
+
+.about-container {
+    margin: 80px auto 90px;
+}
+
+.about-container h2,
+.location-container h2 {
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.about-body {
+    font-size: 16px;
+}
+
+.about-body li {
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.map-container{
+    overflow: hidden;
+    position: relative;
+    height: 375px;
+}
+
+.map-container iframe{
+    left: 0;
+    top: 0;
+    height: 80%;
+    width: 100%;
+    position: absolute;
+    border: 0;
 }
 
 /* Footer */
@@ -360,5 +398,9 @@ footer {
 
     .btn {
         margin-top: 8px;
+    }
+
+    .about-body {
+        font-size: 18px;
     }
 }
