@@ -42,7 +42,245 @@
             </nav>
         </header>
         <section>
-            <br>
+            <div class="container book-container">
+                <div class="row">
+                    <div class="col-sm-12 col-md-10 offset-md-1">
+                        <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                            <a class="nav-item nav-link nav-tab" id="nav-service-tab" data-toggle="tab" href="#service" role="tab" aria-controls="nav-service-tab" aria-selected="true">Service</a>
+                            <a class="nav-item nav-link nav-tab" id="nav-barber-tab" data-toggle="tab" href="#barber" role="tab" aria-controls="nav-barber-tab" aria-selected="false">Barber</a>
+                            <a class="nav-item nav-link nav-tab" id="nav-time-tab" data-toggle="tab" href="#time" role="tab" aria-controls="nav-time-tab" aria-selected="false">Time</a>
+                            <a class="nav-item nav-link nav-tab" id="nav-client-tab" data-toggle="tab" href="#client" role="tab" aria-controls="nav-client-tab" aria-selected="false">Client</a>
+                        </div>
+                        <form action="" method="post">
+                            <div class="tab-content" id="nav-tabContent">
+                                <div id="service" class="tab-pane fade show active" role="tabpanel" aria-labelledby="nav-service-tab">
+                                    <h3 class="book-heading">Select A Service:</h3>
+                                    <div class="form-group row">
+                                        <div class="col-sm-12 col-md-10">
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="serviceRadios" id="serviceRadioOne" value="optionOne">
+                                                <label class="form-check-label" for="ServiceRadioOne">
+                                                    <div class="box-container">
+                                                        <div class="box">
+                                                            <div class="box-content">
+                                                                <div class="row">
+                                                                    <div class="col-6">
+                                                                        <h4 class="box-content-heading">
+                                                                            <a class="btn" data-toggle="collapse" aria-expanded="false" aria-controls="serviceItemOne" href="#serviceItemOne">
+                                                                                Haircut
+                                                                            </a>
+                                                                        </h4>
+                                                                    </div>
+                                                                    <div class="col-6">
+                                                                        <div class="read-more-container">
+                                                                            <a class="btn read-more-btn" data-toggle="collapse" aria-expanded="false" aria-controls="serviceItemOne" href="#serviceItemOne">
+                                                                                Read More
+                                                                            </a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="collapse-content-container" id="serviceItemOne" aria-expanded="false">
+                                                                    <div class="collapse-content">
+                                                                        <p class="collapse-content-text">Using traditional barbering methods to tailor the clients desired look.</p>
+                                                                        <p class="collapse-content-text">Cost: $40</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="serviceRadios" id="serviceRadioTwo" value="optionTwo">
+                                                <label class="form-check-label" for="ServiceRadioTwo">
+                                                    <div class="box-container">
+                                                        <div class="box">
+                                                            <div class="box-content">
+                                                                <div class="row">
+                                                                    <div class="col-6">
+                                                                        <h4 class="box-content-heading">
+                                                                            <a class="btn" data-toggle="collapse" aria-expanded="false" aria-controls="serviceItemTwo" href="#serviceItemTwo">
+                                                                                Clean Head Shave
+                                                                            </a>
+                                                                        </h4>
+                                                                    </div>
+                                                                    <div class="col-6">
+                                                                        <div class="read-more-container">
+                                                                            <a class="btn read-more-btn" data-toggle="collapse" aria-expanded="false" aria-controls="serviceItemTwo" href="#serviceItemTwo">
+                                                                                Read More
+                                                                            </a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="collapse-content-container" id="serviceItemTwo" aria-expanded="false">
+                                                                    <div class="collapse-content">
+                                                                        <p class="collapse-content-text">We start with a hot towel wrap and Pre-Shave Oil. Then we go over the grain of the scalp with a straight razor. Finishing with a chilled towel warp and a Premium After Shave Lotion.</p>
+                                                                        <p class="collapse-content-text">Cost: $40</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="serviceRadios" id="serviceRadioThree" value="optionThree">
+                                                <label class="form-check-label" for="ServiceRadioThree">
+                                                    <div class="box-container">
+                                                        <div class="box">
+                                                            <div class="box-content">
+                                                                <div class="row">
+                                                                    <div class="col-6">
+                                                                        <h4 class="box-content-heading">
+                                                                            <a class="btn" data-toggle="collapse" aria-expanded="false" aria-controls="serviceItemThree" href="#serviceItemThree">
+                                                                                Beard Trim
+                                                                            </a>
+                                                                        </h4>
+                                                                    </div>
+                                                                    <div class="col-6">
+                                                                        <div class="read-more-container">
+                                                                            <a class="btn read-more-btn" data-toggle="collapse" aria-expanded="false" aria-controls="serviceItemThree" href="#serviceItemThree">
+                                                                                Read More
+                                                                            </a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="collapse-content-container" id="serviceItemThree" aria-expanded="false">
+                                                                    <div class="collapse-content">
+                                                                        <p class="collapse-content-text">Trimming the beard to the clients desired length with a razor knife.</p>
+                                                                        <p class="collapse-content-text">Cost: $40</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="serviceRadios" id="serviceRadioFour" value="optionFour">
+                                                <label class="form-check-label" for="ServiceRadioFour">
+                                                    <div class="box-container">
+                                                        <div class="box">
+                                                            <div class="box-content">
+                                                                <div class="row">
+                                                                    <div class="col-6">
+                                                                        <h4 class="box-content-heading">
+                                                                            <a class="btn" data-toggle="collapse" aria-expanded="false" aria-controls="serviceItemFour" href="#serviceItemFour">
+                                                                                Line Up Beard
+                                                                            </a>
+                                                                        </h4>
+                                                                    </div>
+                                                                    <div class="col-6">
+                                                                        <div class="read-more-container">
+                                                                            <a class="btn read-more-btn" data-toggle="collapse" aria-expanded="false" aria-controls="serviceItemFour" href="#serviceItemFour">
+                                                                                Read More
+                                                                            </a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="collapse-content-container" id="serviceItemFour" aria-expanded="false">
+                                                                    <div class="collapse-content">
+                                                                        <p class="collapse-content-text">Shaving the beard lines with a knife, helping you put those lines in just the right place.</p>
+                                                                        <p class="collapse-content-text">Cost: $20</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="serviceRadios" id="serviceRadioFive" value="optionFive">
+                                                <label class="form-check-label" for="ServiceRadioFive">
+                                                    <div class="box-container">
+                                                        <div class="box">
+                                                            <div class="box-content">
+                                                                <div class="row">
+                                                                    <div class="col-6">
+                                                                        <h4 class="box-content-heading">
+                                                                            <a class="btn" data-toggle="collapse" aria-expanded="false" aria-controls="serviceItemFive" href="#serviceItemFive">
+                                                                                Face Shave
+                                                                            </a>
+                                                                        </h4>
+                                                                    </div>
+                                                                    <div class="col-6">
+                                                                        <div class="read-more-container">
+                                                                            <a class="btn read-more-btn" data-toggle="collapse" aria-expanded="false" aria-controls="serviceItemFive" href="#serviceItemFive">
+                                                                                Read More
+                                                                            </a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="collapse-content-container" id="serviceItemFive" aria-expanded="false">
+                                                                    <div class="collapse-content">
+                                                                        <p class="collapse-content-text">We start with a hot towel wrap and pre-shave oil. Following this we go over the grain, removing any stubble, with a straight razor. And finish with a chilled towel wrap and a premium After-Shave lotion.</p>
+                                                                        <p class="collapse-content-text">Cost: $40</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </label>
+                                            </div>
+                                            <div class="form-check">
+                                                <input class="form-check-input" type="radio" name="serviceRadios" id="serviceRadioSix" value="optionSix">
+                                                <label class="form-check-label" for="ServiceRadioSix">
+                                                    <div class="box-container">
+                                                        <div class="box">
+                                                            <div class="box-content">
+                                                                <div class="row">
+                                                                    <div class="col-6">
+                                                                        <h4 class="box-content-heading">
+                                                                            <a class="btn" data-toggle="collapse" aria-expanded="false" aria-controls="serviceItemSix" href="#serviceItemSix">
+                                                                                Haircut + Beard Trim
+                                                                            </a>
+                                                                        </h4>
+                                                                    </div>
+                                                                    <div class="col-6">
+                                                                        <div class="read-more-container">
+                                                                            <a class="btn read-more-btn" data-toggle="collapse" aria-expanded="false" aria-controls="serviceItemSix" href="#serviceItemSix">
+                                                                                Read More
+                                                                            </a>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="collapse-content-container" id="serviceItemSix" aria-expanded="false">
+                                                                    <div class="collapse-content">
+                                                                        <p class="collapse-content-text">Using traditional barbering methods to tailor the clients desired look, groomed with all premium hair and beard products.</p>
+                                                                        <p class="collapse-content-text">Cost: $80</p>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    
+                                    <!-- <div class="form-group row">
+                                        <label for="serviceSelect" class="col-sm-2 col-form-label">Service:</label>
+                                        <div class="col-sm-12 col-md-10">
+                                            <select name="" id="serviceSelect" class="form-control">
+                                                <option value="">1</option>
+                                                <option value="">2</option>
+                                                <option value="">3</option>
+                                                <option value="">4</option>
+                                            </select>
+                                        </div>
+                                    </div> -->
+                                </div>
+                            </div>
+                        </form>
+                        <div class="service-cancel-policy">
+                            <h2 class="service-cancel-policy-heading">Late cancellation policy</h2>
+                            <p>
+                              We ask that any cancellation be notified to the barbershop at least 24 hours before the appointment. If you do cancel within 24 hours of your appointment you’ll be asked to pay for the service that was booked.                        
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
         <footer class="container-fluid footer-container footer-bg-color">
             <div class="row">
