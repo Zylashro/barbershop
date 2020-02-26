@@ -17,7 +17,7 @@
 }
 
 .service-info-body {
-    margin-bottom: 16px;
+    margin-bottom: 32px;
     font-size: 16px;
 }
 
@@ -28,8 +28,10 @@
 }
 
 .service-add-info-img {
-    width: 100%;
+    width: 140px;
+    height: 140px;
     margin-bottom: 20px;
+    border: 1px solid #000000;
 }
 
 .service-add-info-time {
@@ -43,19 +45,6 @@
 .btn {
     margin-top: 16px;
     width: 100%;
-}
-
-.btn-style,
-.btn-style:visited {
-    background-color: #504e4e;
-    border-color: #504e4e;
-    color: #eeeeee;
-}
-
-.btn-style:hover {
-    background-color: #6e6a6a;
-    border-color: #6e6a6a;
-    color: rgba(29, 27, 27, 0.5);
 }
 
 .no-margin {
