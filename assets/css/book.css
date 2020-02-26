@@ -13,10 +13,6 @@
     color: #212529;
 }
 
-.sm-block {
-    display: none;
-}
-
 .required-input {
     vertical-align: top;
     color: #ff0000;
@@ -200,10 +196,6 @@
 
     .nav-tab {
         padding: 8px 90px 8px;
-    }
-    
-    .sm-block {
-        display: inline;
     }
 
     .box-container {
