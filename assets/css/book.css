@@ -149,11 +149,6 @@
     height: 40px;
 }
 
-.time-input, 
-.time-label {
-    position: relative;
-}
-
 .time-label {
     padding: 5px;
     border: 1px solid #cccccc;
