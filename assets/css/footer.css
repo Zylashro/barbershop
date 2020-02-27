@@ -29,13 +29,16 @@
 
 .footer-heading-link-styling {
     color: #ffffff;
-    margin-bottom: 12px;
 }
 
 .footer-heading-link-styling:hover,
 .social-links-item:hover {
     text-decoration: none;
     color: rgba(255, 255, 255, .5);
+}
+
+.footer-heading-social {
+    text-align: center;
 }
 
 .social-links-item {
