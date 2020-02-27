@@ -9,9 +9,9 @@
         <script src="https://kit.fontawesome.com/7e899f220f.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="assets/css/default.css" type="text/css">
         <link rel="stylesheet" href="assets/css/header.css" type="text/css">
-        <link rel="stylesheet" href="assets/css/index.css" type="text/css">
+        <link rel="stylesheet" href="assets/css/about.css" type="text/css">
         <link rel="stylesheet" href="assets/css/footer.css" type="text/css">
-        <title>Harrison Cuts | Home</title>
+        <title>Harrison Cuts | About</title>
     </head>
     <body>
         <header>
@@ -25,7 +25,7 @@
                 </button>
                 <div class="navbar-collapse collapse" id="navbarDropdownMenu">
                     <ul class="navbar-nav ml-auto" id="mainNav">
-                        <li class="nav-item main-nav-item active ml-2">
+                        <li class="nav-item main-nav-item ml-2">
                             <a class="nav-link main-nav-link" href="index.html">Home</a>
                         </li>
                         <li class="nav-item main-nav-item ml-2">
@@ -34,74 +34,39 @@
                         <li class="nav-item main-nav-item ml-2">
                             <a class="nav-link main-nav-link" href="service.html">Service</a>
                         </li>
-                        <li class="nav-item main-nav-item ml-2">
+                        <li class="nav-item main-nav-item active ml-2">
                             <a class="nav-link main-nav-link" href="about.html">About Us</a>
                         </li>
                     </ul>
                 </div>
             </nav>
         </header>
-        <main>
-            <div class="container-fluid hero-container">
-                <div class="opaque-overlay">&nbsp;</div>
+        <section>
+            <div class="container about-container">
                 <div class="row">
-                    <div class="col-sm-12 col-lg-8 offset-lg-2">
-                        <section class="jumbotron">
-                            <h1 class="jumbotron-header">What We Do!</h1>
-                            <p class="lead">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vestibulum lorem in interdum ullamcorper. Sed vitae congue nunc, non feugiat sapien. Quisque et orci a elit ullamcorper laoreet. Donec sed ullamcorper velit. Donec in mauris ante.
-                            </p>
-                        </section>
+                    <div class="col-12">
+                        <h2 class="about-heading"><span><i class="fas fa-info-circle"></i></span> About Us</h2>
+                        <p class="about-text-style">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vestibulum lorem in interdum ullamcorper. Sed vitae congue nunc, non feugiat sapien. Quisque et orci a elit ullamcorper laoreet. Donec sed ullamcorper velit. Donec in mauris ante.
+                        </p>
                     </div>
                 </div>
             </div>
-        </main>
+        </section>
         <section>
-            <div class="container quotes-container">
+            <div class="container">
                 <div class="row">
-                    <div class="col-12 quotes-header">
-                        <h2>Quotes:</h2>
+                    <div class="col-md-6">
+                        <h2 class="about-heading"><span><i class="fas fa-map-marker-alt"></i></span> Where To Find Us</h2>
+                        <p class="about-text-style">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vestibulum lorem in interdum ullamcorper:</p>
+                        <ul>
+                            <li class="about-text-style about-list-style">408 Williams Street, Depew, NY USA</li>
+                        </ul>
                     </div>
-                </div>
-                <img src="assets/images/svg/divider/barber-edited.svg" class="divider" alt="Divider between section heading and content">
-                <div class="row">
-                    <div class="col-12 col-md-4">
-                        <div class="media">
-                            <div class="quote-style-bar-pic d-none d-sm-block">
-                                <img src="assets/images/quote images/man-in-blue-dress-shirt-and-black-formal-suit-1043473.jpg" class="rounded-circle mr-3 quote-img">
-                            </div>
-                            <div class="media-body">
-                                <blockquote class="blockquote">
-                                    <p class="quote-style-text quote-style-bar-text">Cosy place, super professional and friendly folks! I always get a nice haircut! I strongly recommend it!</p>
-                                    <p class="quote-credit">- Wayne Slate</p>
-                                </blockquote>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-4">
-                        <div class="media">
-                            <div class="quote-style-bar-pic d-none d-sm-block">
-                                <img src="assets/images/quote images/shallow-focus-photo-of-man-in-white-and-black-polka-dot-2269872.jpg" class="rounded-circle mr-3 quote-img">
-                            </div>
-                            <div class="media-body">
-                                <blockquote class="blockquote">
-                                    <p class="quote-style-text quote-style-bar-text">Professional and pleasant. They do that little extra, which is very much appreciated.</p>                                        
-                                    <p class="quote-credit">- Travis Shaw</p>
-                                </blockquote>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-4 d-none d-sm-block">
-                        <div class="media">
-                            <div class="quote-style-bar-pic d-none d-sm-block">
-                                <img src="assets/images/quote images/man-wearing-blue-crew-neck-t-shirt-2379005.jpg" class="rounded-circle mr-3 quote-img">
-                            </div>
-                            <div class="media-body">
-                                <blockquote class="blockquote">
-                                    <p class="quote-style-text">Incredibly pleased with the cut and service!</p>                                        
-                                    <p class="quote-credit">- James Musser</p>
-                                </blockquote>
-                            </div>
+                    <div class="col-md-6">
+                        <!-- Google maps embed code, modified to suit my needs, from https://mdbootstrap.com/docs/jquery/javascript/google-maps/ -->
+                        <div class="z-depth-1-half map-container">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2923.6132353170774!2d-78.65391838452715!3d42.88100687915532!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d3a07e1da07261%3A0x6c5a77d4ff0e6eed!2sWilliam%20St%2C%20Lancaster%2C%20NY%2C%20USA!5e0!3m2!1sen!2sse!4v1582455315824!5m2!1sen!2sse" frameborder="0" allowfullscreen class="iframe-container"></iframe>
                         </div>
                     </div>
                 </div>
@@ -128,9 +93,9 @@
                     <br>
                     <a href="#" class="footer-heading-link-styling">Join Us</a>
                 </div>
-                <div class="col-sm-5">
-                    <h4 class="footer-heading footer-heading-social">Social</h4>
-                    <ul class="list-inline social-links text-center">
+                <div class="col-sm-5 footer-heading-social">
+                    <h4 class="footer-heading">Social</h4>
+                    <ul class="list-inline social-links">
                         <li class="list-inline-item">
                             <a href="https://www.facebook.com/" target="_blank" class="social-links-item">
                                 <i class="fab fa-facebook" aria-hidden="true"></i>
@@ -160,27 +125,15 @@
             </div>
             <div class="row">
                 <div class="col">
-                    <p class="copyright footer-container-text-style">
+                    <p class="copyright small footer-container-text-style">
                         Copyright © 2020 Harrison Cuts. All rights reserved.
                     </p>
                 </div>
             </div>
             <div class="row credit">
                 <div class="col">
-                    <p class="small footer-container-text-style">
+                    <p class="small small footer-container-text-style">
                         Icons made by <a href="https://www.flaticon.com/authors/good-ware" title="Good Ware" target="_blank" class="credit-link-style">Good Ware</a> from <a href="https://www.flaticon.com/" title="Flaticon" target="_blank" class="credit-link-style"> www.flaticon.com</a>
-                    </p>
-                    <p class="small footer-container-text-style">
-                        Photo by <a href="https://unsplash.com/@alwinkroon?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" title="Alwin Kroon" target="_blank" class="credit-link-style">Alwin Kroon</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" title="Unsplash" target="_blank" class="credit-link-style">Unsplash</a>
-                    </p>
-                    <p class="small footer-container-text-style">
-                        Photo by <a href="https://www.pexels.com/@chloekalaartist?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels" title="Chloe Kala" target="_blank" class="credit-link-style">Chloe Kala</a> on <a href="https://www.pexels.com/" title="Pexels" target="_blank" class="credit-link-style">Pexels</a>
-                    </p>
-                    <p class="small footer-container-text-style">
-                        Photo by <a href="https://www.pexels.com/@brunosalvadori?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels" title="Bruno Salvadori" target="_blank" class="credit-link-style">Bruno Salvadori</a> on <a href="https://www.pexels.com/" title="Pexels" target="_blank" class="credit-link-style">Pexels</a>
-                    </p>
-                    <p class="small footer-container-text-style">
-                        Photo by <a href="https://www.pexels.com/@italo-melo-881954?utm_content=attributionCopyText&utm_medium=referral&utm_source=pexels" title="Italo Melo" target="_blank" class="credit-link-style">Italo Melo</a> on <a href="https://www.pexels.com/" title="Pexels" target="_blank" class="credit-link-style">Pexels</a>
                     </p>
                 </div>
             </div>

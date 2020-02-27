@@ -1,0 +1,123 @@
+.hero-container {
+    height: 100vh;
+    background: url(../images/backgrounds/alwin-kroon-pszyJeq6DFs-unsplash.jpg) no-repeat center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.jumbotron {
+    padding-top: 14px;
+    padding-bottom: 14px;
+    margin-top: 32px;
+    background-color: rgba(29, 27, 27, 0.5);
+}
+
+.jumbotron-header {
+    margin-bottom: 40px;
+    text-align: center;
+    font-weight: 600;
+    color: #eeeeee;
+}
+
+.lead {
+    color: #eeeeee;
+}
+
+.quotes-container {
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+
+.quotes-header {
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.divider {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    height: 60px;
+    width: 100px;
+}
+
+.quote-img {
+    height: 100px;
+    width: 100px;
+}
+
+.blockquote {
+    margin-bottom: 20px;
+    margin-right: 10px;
+}
+
+/* The idea and some style for the .quote-style-bar's, text, and credit come from Jake Rocheleau(_jro) at http://jsfiddle.net/_jro/RXa65/ */
+
+.quote-style-bar-pic {
+    padding-left: 16px; 
+    border-left: 5px solid #504e4e; 
+}
+
+.quote-style-bar-text {
+    padding-left: 16px; 
+    border-left: 5px solid #504e4e; 
+}
+
+.quote-style-text {
+    font-style: italic; 
+    font-size: 14px; 
+    color: #8c8785;
+    margin-bottom: 0;
+}
+
+.quote-credit {
+    margin-left: 20px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+/* Media Queries */
+
+@media(min-width: 769px) {
+    .jumbotron {
+        padding-top: 32px;
+        padding-bottom: 32px;
+        margin-top: 0;
+    }
+
+    .divider {
+        width: 140px;
+    }
+
+    .quote-style-bar-text {
+        border-left: 0;
+        padding-left: 0;
+    }
+
+    .quote-credit {
+        margin-left: 20px;
+        font-size: 16px;
+    }
+}
+
+@media(min-width: 577px) {
+    .quote-style-bar-text {
+        border-left: 0;
+        padding-left: 0;
+    }
+}
