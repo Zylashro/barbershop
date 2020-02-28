@@ -20,10 +20,17 @@
     margin-bottom: 16px;
 }
 
+.details-list {
+    list-style-type: none;
+}
+
+.details-list-item {
+    margin-bottom: 12px;
+}
+
 .footer-details-styling {
     padding-left: 15px;
-    margin-bottom: 12px;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 300;
 }
 
@@ -55,15 +62,4 @@
 
 .footer-container-text-style {
     margin-bottom: 0;   
-}
-
-.credit {
-    font-size: 12px;
-    text-align: center;
-    margin-top: 10px;
-}
-
-.credit-link-style {
-    color: rgba(255, 255, 255, .5);
-    text-decoration: none;
 }
