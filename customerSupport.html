@@ -9,9 +9,9 @@
         <script src="https://kit.fontawesome.com/7e899f220f.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="assets/css/default.css" type="text/css">
         <link rel="stylesheet" href="assets/css/header.css" type="text/css">
-        <link rel="stylesheet" href="assets/css/index.css" type="text/css">
+        <link rel="stylesheet" href="assets/css/customerSupport.css" type="text/css">
         <link rel="stylesheet" href="assets/css/footer.css" type="text/css">
-        <title>Harrison Cuts | Home</title>
+        <title>Harrison Cuts | Customer Support</title>
     </head>
     <body>
         <header>
@@ -25,7 +25,7 @@
                 </button>
                 <div class="navbar-collapse collapse" id="navbarDropdownMenu">
                     <ul class="navbar-nav ml-auto" id="mainNav">
-                        <li class="nav-item main-nav-item active ml-2">
+                        <li class="nav-item main-nav-item ml-2">
                             <a class="nav-link main-nav-link" href="index.html">Home</a>
                         </li>
                         <li class="nav-item main-nav-item ml-2">
@@ -41,67 +41,69 @@
                 </div>
             </nav>
         </header>
-        <main>
-            <div class="container-fluid hero-container">
-                <div class="opaque-overlay">&nbsp;</div>
-                <div class="row">
-                    <div class="col-sm-12 col-lg-8 offset-lg-2">
-                        <section class="jumbotron">
-                            <h1 class="jumbotron-header">What We Do!</h1>
-                            <p class="lead">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vestibulum lorem in interdum ullamcorper. Sed vitae congue nunc, non feugiat sapien. Quisque et orci a elit ullamcorper laoreet. Donec sed ullamcorper velit. Donec in mauris ante.
-                            </p>
-                        </section>
-                    </div>
-                </div>
-            </div>
-        </main>
         <section>
-            <div class="container quotes-container">
+            <div class="container customer-support-container">
                 <div class="row">
-                    <div class="col-12 quotes-header">
-                        <h2>Quotes:</h2>
+                    <div class="col-sm-12 col-md-9 main-container">
+                        <h2 class="customer-support-heading">Customer Support</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vestibulum lorem in interdum ullamcorper. Sed vitae congue nunc, non feugiat sapien. Quisque et orci a elit ullamcorper laoreet. Donec sed ullamcorper velit. Donec in mauris ante.
+                        </p>
+                        <form action="" method="post" class="form-container">
+                            <div class="form-group">
+                                <label for="fullName" class="label-heading">Full Name   <span class="required-input">*</span></label>
+                                <input type="text" class="form-control" id="fullName" placeholder="Enter your full name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phoneNumber" class="label-heading">Phone Number <span class="required-input">*</span></label>
+                                <input type="tel" class="form-control" id="phoneNumber" placeholder="Enter your phone number" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="emailAddress" class="label-heading">Email address   <span class="required-input">*</span></label>
+                                <input type="email" class="form-control" id="emailAddress" aria-describedby="emailAddress" placeholder="Enter your email address" required>
+                                <small id="emailAddress" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                            </div>
+                            <div class="form-group">
+                                <label for="textarea" class="label-heading">Support Ticket   <span class="required-input">*</span></label>
+                                <textarea class="form-control" id="textarea" rows="3"></textarea>
+                            </div>
+                            <div class="text-right">
+                                <button type="submit" class="btn btn-submit">Submit</button>
+                            </div>
+                        </form>
                     </div>
-                </div>
-                <img src="assets/images/svg/divider/barber-edited.svg" class="divider" alt="Divider between section heading and content">
-                <div class="row">
-                    <div class="col-12 col-md-4">
-                        <div class="media">
-                            <div class="quote-style-bar-pic d-none d-sm-block">
-                                <img src="assets/images/quote images/man-in-blue-dress-shirt-and-black-formal-suit-1043473.jpg" class="rounded-circle mr-3 quote-img">
-                            </div>
-                            <div class="media-body">
-                                <blockquote class="blockquote">
-                                    <p class="quote-style-text quote-style-bar-text">Cosy place, super professional and friendly folks! I always get a nice haircut! I strongly recommend it!</p>
-                                    <p class="quote-credit">- Wayne Slate</p>
-                                </blockquote>
-                            </div>
-                        </div>
+                    <div class="col-3 d-none d-sm-block">
+                        <nav class="navbar nav-container">
+                            <h2 class="customer-support-heading">Get In Touch</h2>
+                            <ul class="navbar-nav" id="sideNav">
+                                <li class="nav-item active">
+                                    <a class="nav-link side-nav-styling" href="customerSupport.html">Customer Support</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link side-nav-styling" href="contact.html">Contact Us</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link side-nav-styling" href="join.html">Join Us</a>
+                                </li>
+                            </ul>
+                        </nav>
                     </div>
-                    <div class="col-12 col-md-4">
-                        <div class="media">
-                            <div class="quote-style-bar-pic d-none d-sm-block">
-                                <img src="assets/images/quote images/shallow-focus-photo-of-man-in-white-and-black-polka-dot-2269872.jpg" class="rounded-circle mr-3 quote-img">
-                            </div>
-                            <div class="media-body">
-                                <blockquote class="blockquote">
-                                    <p class="quote-style-text quote-style-bar-text">Professional and pleasant. They do that little extra, which is very much appreciated.</p>                                        
-                                    <p class="quote-credit">- Travis Shaw</p>
-                                </blockquote>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-4 d-none d-sm-block">
-                        <div class="media">
-                            <div class="quote-style-bar-pic d-none d-sm-block">
-                                <img src="assets/images/quote images/man-wearing-blue-crew-neck-t-shirt-2379005.jpg" class="rounded-circle mr-3 quote-img">
-                            </div>
-                            <div class="media-body">
-                                <blockquote class="blockquote">
-                                    <p class="quote-style-text">Incredibly pleased with the cut and service!</p>                                        
-                                    <p class="quote-credit">- James Musser</p>
-                                </blockquote>
-                            </div>
+                    <div class="row">
+                        <div class="col-sm-12 d-sm-block d-md-none">
+                            <nav class="navbar nav-container">
+                                <h2 class="customer-support-heading">Get In Touch</h2>
+                                <ul class="navbar-nav side-nav-sm-list">
+                                    <li class="nav-item side-nav-sm-list-item active">
+                                        <a class="nav-link side-nav-styling" href="customerSupport.html">Customer Support</a>
+                                    </li>
+                                    <li class="nav-item side-nav-sm-list-item">
+                                        <a class="nav-link side-nav-styling" href="contact.html">Contact Us</a>
+                                    </li>
+                                    <li class="nav-item side-nav-sm-list-item">
+                                        <a class="nav-link side-nav-styling" href="join.html">Join Us</a>
+                                    </li>
+                                </ul>
+                            </nav>
                         </div>
                     </div>
                 </div>
@@ -121,9 +123,9 @@
                     <h4 class="footer-heading">Get In Touch</h4>
                     <a href="customerSupport.html" class="footer-heading-link-styling">Customer Support</a>
                     <br>
-                    <a href="#" class="footer-heading-link-styling">Contact Us</a>
+                    <a href="contact.html" class="footer-heading-link-styling">Contact Us</a>
                     <br>
-                    <a href="#" class="footer-heading-link-styling">Join Us</a>
+                    <a href="join.html" class="footer-heading-link-styling">Join Us</a>
                 </div>
                 <div class="col-sm-5">
                     <h4 class="footer-heading footer-heading-social">Social</h4>

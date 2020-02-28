@@ -30,13 +30,10 @@
     padding: 10px 16px 10px 0px;
 }
 
-.nav-item {
-    text-align: center;
-}
-
 .main-nav-item {
     font-size: 20px;
     padding: 5px;
+    text-align: center;
 }
 
 .main-nav-link {
