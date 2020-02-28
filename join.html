@@ -9,9 +9,9 @@
         <script src="https://kit.fontawesome.com/7e899f220f.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="assets/css/default.css" type="text/css">
         <link rel="stylesheet" href="assets/css/header.css" type="text/css">
-        <link rel="stylesheet" href="assets/css/join.css" type="text/css">
+        <link rel="stylesheet" href="assets/css/supplementary.css" type="text/css">
         <link rel="stylesheet" href="assets/css/footer.css" type="text/css">
-        <title>Harrison Cuts | Join Us</title>
+        <title>Harrison Cuts | Join</title>
     </head>
     <body>
         <header>
@@ -25,7 +25,7 @@
                 </button>
                 <div class="navbar-collapse collapse" id="navbarDropdownMenu">
                     <ul class="navbar-nav ml-auto" id="mainNav">
-                        <li class="nav-item main-nav-item active ml-2">
+                        <li class="nav-item main-nav-item ml-2">
                             <a class="nav-link main-nav-link" href="index.html">Home</a>
                         </li>
                         <li class="nav-item main-nav-item ml-2">
@@ -42,7 +42,86 @@
             </nav>
         </header>
         <section>
-            
+            <div class="container supplementary-container">
+                <div class="row">
+                    <div class="col-sm-12 col-md-9 main-container">
+                        <h2 class="supplementary-heading">Join Us</h2>
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vestibulum lorem in interdum ullamcorper. Sed vitae congue nunc, non feugiat sapien. Quisque et orci a elit ullamcorper laoreet. Donec sed ullamcorper velit. Donec in mauris ante.
+                        </p>
+                        <form action="" method="post" class="form-container">
+                            <div class="form-group">
+                                <label for="positionSelect">Which position would you like to apply for? <span class="required-input">*</span></label>
+                                <select class="form-control" id="positionSelect">
+                                  <option>Barber</option>
+                                  <option>Accountant</option>
+                                  <option>Web Developer</option>
+                                  <option>Support Team</option>
+                                  <option>HR</option>
+                                </select>
+                              </div>
+                            <div class="form-group">
+                                <label for="fullName" class="label-heading">Full Name   <span class="required-input">*</span></label>
+                                <input type="text" class="form-control" id="fullName" placeholder="Enter your full name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phoneNumber" class="label-heading">Phone Number <span class="required-input">*</span></label>
+                                <input type="tel" class="form-control" id="phoneNumber" placeholder="Enter your phone number" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="emailAddress" class="label-heading">Email address   <span class="required-input">*</span></label>
+                                <input type="email" class="form-control" id="emailAddress" aria-describedby="emailAddress" placeholder="Enter your email address" required>
+                                <small id="emailAddress" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                            </div>
+                            <div class="form-group">
+                                <label for="textarea" class="label-heading">Message</label>
+                                <textarea class="form-control" id="textarea" rows="3"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <label for="inputFile">CV and any additional files  <span class="required-input">*</span></label>
+                                <input type="file" class="form-control-file" id="inputFile" required>
+                              </div>
+                            <div class="text-right">
+                                <button type="submit" class="btn btn-submit">Submit</button>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="col-3 d-none d-sm-block">
+                        <nav class="navbar nav-container">
+                            <h2 class="-supplementary-heading">Get In Touch</h2>
+                            <ul class="navbar-nav" id="sideNav">
+                                <li class="nav-item">
+                                    <a class="nav-link side-nav-styling" href="customerSupport.html">Customer Support</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link side-nav-styling" href="contact.html">Contact Us</a>
+                                </li>
+                                <li class="nav-item active">
+                                    <a class="nav-link side-nav-styling" href="join.html">Join Us</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12 d-sm-block d-md-none">
+                            <nav class="navbar nav-container">
+                                <h2 class="supplementary-heading">Get In Touch</h2>
+                                <ul class="navbar-nav side-nav-sm-list">
+                                    <li class="nav-item side-nav-sm-list-item active">
+                                        <a class="nav-link side-nav-styling" href="customerSupport.html">Customer Support</a>
+                                    </li>
+                                    <li class="nav-item side-nav-sm-list-item">
+                                        <a class="nav-link side-nav-styling" href="contact.html">Contact Us</a>
+                                    </li>
+                                    <li class="nav-item side-nav-sm-list-item">
+                                        <a class="nav-link side-nav-styling" href="join.html">Join Us</a>
+                                    </li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
         <footer class="container-fluid footer-container footer-bg-color">
             <div class="row">
