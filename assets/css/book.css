@@ -51,6 +51,32 @@
     font-size: 18px;
 }
 
+.checkbox-field-default {
+    display: none;
+}
+
+.checkbox-field-custom::after {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin-left: 8px;
+	border: 1px solid #eeeeee;
+	border-radius: 8px;
+    overflow: hidden;
+    font-size: 14px;
+    line-height: 1.5;
+    text-align: center;
+    vertical-align: middle;
+	content: "";
+    color: #504e4e;
+}
+
+.checkbox-field-default:checked + .checkbox-field-custom::after {
+    content: "\2714";
+    font-weight: 600;
+    background-color: #eeeeee;
+}
+
 .radio-field-default {
     display: none;
 }
@@ -73,7 +99,7 @@
 
 .radio-field-default:checked + .radio-field-custom::after {
     content: "\2714";
-    font-weight: 500;
+    font-weight: 600;
     background-color: #eeeeee;
 }
 

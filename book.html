@@ -55,15 +55,16 @@
                             <div class="tab-content" id="nav-tabContent">
                                 <div id="service" class="tab-pane fade show active" role="tabpanel" aria-labelledby="nav-service-tab">
                                     <h3 class="book-heading"><span class="sm-block"><i class="fas fa-cut"></i> </span>Select A Service:   <span class="required-input">*</span></h3>
-                                    <div class="form-group row">
+                                    <div class="form-group checkbox-group row required">
+                                        <input type="radio" name="servicesSelected" id="servicesSelected" required style="display: none;">
                                         <div class="col-sm-12 col-md-10">
                                             <div class="form-check box-container">
                                                 <div class="box">
                                                     <div class="box-content">
                                                         <div class="row box-align">
                                                             <div class="col-8 col-md-6">
-                                                                <input class="form-check-input radio-field-default" type="radio" name="serviceRadios" id="serviceRadioOne" value="optionOne" required>
-                                                                <label class="form-check-label box-content-heading radio-field-custom" for="serviceRadioOne">Haircut</label>
+                                                                <input class="form-check-input checkbox-field-default" type="checkbox" name="serviceCheckboxes" id="serviceCheckboxOne" value="optionOne">
+                                                                <label class="form-check-label box-content-heading checkbox-field-custom" for="serviceCheckboxOne">Haircut</label>
                                                             </div>
                                                             <div class="col-2 col-md-6">
                                                                 <div class="read-more-container">
@@ -87,8 +88,8 @@
                                                     <div class="box-content">
                                                         <div class="row box-align">
                                                             <div class="col-8 col-md-6">
-                                                                <input class="form-check-input radio-field-default" type="radio" name="serviceRadios" id="serviceRadioTwo" value="optionTwo" required> 
-                                                                <label class="form-check-label box-content-heading radio-field-custom" for="serviceRadioTwo">Clean Head Shave</label>
+                                                                <input class="form-check-input checkbox-field-default" type="checkbox" name="serviceCheckboxes" id="serviceCheckboxTwo" value="optionTwo"> 
+                                                                <label class="form-check-label box-content-heading checkbox-field-custom" for="serviceCheckboxTwo">Clean Head Shave</label>
                                                             </div>
                                                             <div class="col-2 col-md-6">
                                                                 <div class="read-more-container">
@@ -112,8 +113,8 @@
                                                     <div class="box-content">
                                                         <div class="row box-align">
                                                             <div class="col-8 col-md-6">
-                                                                <input class="form-check-input radio-field-default" type="radio" name="serviceRadios" id="serviceRadioThree" value="optionThree" required>  
-                                                                <label class="form-check-label box-content-heading radio-field-custom" for="serviceRadioThree">Beard Trim</label>
+                                                                <input class="form-check-input checkbox-field-default" type="checkbox" name="serviceCheckboxes" id="serviceCheckboxThree" value="optionThree">  
+                                                                <label class="form-check-label box-content-heading checkbox-field-custom" for="serviceCheckboxThree">Beard Trim</label>
                                                             </div>
                                                             <div class="col-2 col-md-6">
                                                                 <div class="read-more-container">
@@ -137,8 +138,8 @@
                                                     <div class="box-content">
                                                         <div class="row box-align">
                                                             <div class="col-8 col-md-6">
-                                                                <input class="form-check-input radio-field-default" type="radio" name="serviceRadios" id="serviceRadioFour" value="optionFour" required> 
-                                                                <label class="form-check-label box-content-heading radio-field-custom" for="serviceRadioFour">Line Up Beard</label> 
+                                                                <input class="form-check-input checkbox-field-default" type="checkbox" name="serviceCheckboxes" id="serviceCheckboxFour" value="optionFour"> 
+                                                                <label class="form-check-label box-content-heading checkbox-field-custom" for="serviceCheckboxFour">Line Up Beard</label> 
                                                             </div>
                                                             <div class="col-2 col-md-6">
                                                                 <div class="read-more-container">
@@ -162,8 +163,8 @@
                                                     <div class="box-content">
                                                         <div class="row box-align">
                                                             <div class="col-8 col-md-6">
-                                                                <input class="form-check-input radio-field-default" type="radio" name="serviceRadios" id="serviceRadioFive" value="optionFive" required> 
-                                                                <label class="form-check-label box-content-heading radio-field-custom" for="serviceRadioFive">Face Shave</label> 
+                                                                <input class="form-check-input checkbox-field-default" type="checkbox" name="serviceCheckboxes" id="serviceCheckboxFive" value="optionFive"> 
+                                                                <label class="form-check-label box-content-heading checkbox-field-custom" for="serviceCheckboxFive">Face Shave</label> 
                                                             </div>
                                                             <div class="col-2 col-md-6">
                                                                 <div class="read-more-container">
@@ -187,8 +188,8 @@
                                                     <div class="box-content">
                                                         <div class="row box-align">
                                                             <div class="col-8 col-md-6">
-                                                                <input class="form-check-input radio-field-default" type="radio" name="serviceRadios" id="serviceRadioSix" value="optionSix" required> 
-                                                                <label class="form-check-label box-content-heading radio-field-custom" for="serviceRadioSix">Haircut + Beard Trim</label> 
+                                                                <input class="form-check-input checkbox-field-default" type="checkbox" name="serviceCheckboxes" id="serviceCheckboxSix" value="optionSix"> 
+                                                                <label class="form-check-label box-content-heading checkbox-field-custom" for="serviceCheckboxSix">Haircut + Beard Trim</label> 
                                                             </div>
                                                             <div class="col-2 col-md-6">
                                                                 <div class="read-more-container">
@@ -464,13 +465,13 @@
                                 </div>
                             </div>
                             <div class="text-right">
-                                <button type="submit" class="btn btn-submit">Submit</button>
+                                <button type="submit" id="submitButton" class="btn btn-submit">Submit</button>
                             </div>
                         </form>
                         <div class="service-cancel-policy">
                             <h2 class="service-cancel-policy-heading">Late cancellation policy</h2>
                             <p>
-                              We ask that any cancellation be notified to the barbershop at least 24 hours before the appointment. If you do cancel within 24 hours of your appointment you’ll be asked to pay for the service that was booked.                        
+                                We ask that any cancellation be notified to the barbershop at least 24 hours before the appointment. If you do cancel within 24 hours of your appointment you’ll be asked to pay for the service that was booked.                        
                             </p>
                         </div>
                     </div>
@@ -536,5 +537,11 @@
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <script>
+            $(".checkbox-field-default").on('change', function() {
+                let selected = $('div.checkbox-group.required :checkbox:checked').length > 0;
+                $("#servicesSelected").prop("checked", selected);
+            });
+        </script>
     </body>
 </html>
