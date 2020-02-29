@@ -52,14 +52,15 @@
                         <form action="" method="post" class="form-container">
                             <div class="form-group">
                                 <label for="positionSelect">Which position would you like to apply for? <span class="required-input">*</span></label>
-                                <select class="form-control" id="positionSelect">
-                                  <option>Barber</option>
-                                  <option>Accountant</option>
-                                  <option>Web Developer</option>
-                                  <option>Support Team</option>
-                                  <option>HR</option>
+                                <select class="form-control custom-select" id="positionSelect" required>
+                                    <option value="" disabled selected>Select a position...</option>
+                                    <option value="barber">Barber</option>
+                                    <option value="accountant">Accountant</option>
+                                    <option value="webDeveloper">Web Developer</option>
+                                    <option value="supportTeam">Support Team</option>
+                                    <option value="hr">HR</option>
                                 </select>
-                              </div>
+                            </div>
                             <div class="form-group">
                                 <label for="fullName" class="label-heading">Full Name   <span class="required-input">*</span></label>
                                 <input type="text" class="form-control" id="fullName" placeholder="Enter your full name" required>
@@ -79,8 +80,11 @@
                             </div>
                             <div class="form-group">
                                 <label for="inputFile">CV and any additional files  <span class="required-input">*</span></label>
-                                <input type="file" class="form-control-file" id="inputFile" required>
-                              </div>
+                                <div class="custom-file">
+                                    <input type="file" class="custom-file-input" id="inputFile" required>
+                                    <label class="custom-file-label" for="inputFile" aria-describedby="inputFile">Choose file...</label>
+                                </div>
+                            </div>
                             <div class="text-right">
                                 <button type="submit" class="btn btn-submit">Submit</button>
                             </div>
@@ -97,7 +101,7 @@
                                     <a class="nav-link side-nav-styling" href="contact.html">Contact Us</a>
                                 </li>
                                 <li class="nav-item active">
-                                    <a class="nav-link side-nav-styling" href="join.html">Join Us</a>
+                                    <a class="nav-link side-nav-styling active" href="join.html">Join Us</a>
                                 </li>
                             </ul>
                         </nav>
@@ -106,17 +110,9 @@
                         <div class="col-sm-12 d-sm-block d-md-none">
                             <nav class="navbar nav-container">
                                 <h2 class="supplementary-heading">Get In Touch</h2>
-                                <ul class="navbar-nav side-nav-sm-list">
-                                    <li class="nav-item side-nav-sm-list-item active">
-                                        <a class="nav-link side-nav-styling" href="customerSupport.html">Customer Support</a>
-                                    </li>
-                                    <li class="nav-item side-nav-sm-list-item">
-                                        <a class="nav-link side-nav-styling" href="contact.html">Contact Us</a>
-                                    </li>
-                                    <li class="nav-item side-nav-sm-list-item">
-                                        <a class="nav-link side-nav-styling" href="join.html">Join Us</a>
-                                    </li>
-                                </ul>
+                                <a class="btn sm-btn side-nav-styling" href="customerSupport.html">Customer Support</a>
+                                <a class="btn sm-btn side-nav-styling" href="contact.html">Contact Us</a>
+                                <a class="btn sm-btn side-nav-styling" href="join.html">Join Us</a>
                             </nav>
                         </div>
                     </div>

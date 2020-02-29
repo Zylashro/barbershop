@@ -44,6 +44,10 @@
     background-color: #6e6a6a; 
 }
 
+.nav-container {
+    display: block;
+}
+
 .side-nav-styling {
     margin-bottom: 4px;
     border: 1px solid #e0dede;
@@ -57,16 +61,6 @@
 .side-nav-styling:hover {
     color: #212529;
     background-color: #6e6a6a;
-}
-
-.side-nav-sm-list {
-    list-style-type: none;
-    overflow: hidden;
-    display: inline-block;
-}
-
-.side-nav-sm-list-item {
-    float: left;
 }
 
 /* Media Queries */
