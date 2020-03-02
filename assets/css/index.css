@@ -45,8 +45,8 @@
 /* Quotes Section */
 
 .quotes-container {
-    padding-top: 75px;
-    padding-bottom: 75px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .quotes-header {
@@ -109,6 +109,11 @@
 
     .divider {
         width: 140px;
+    }
+
+    .quotes-container {
+        padding-top: 75px;
+        padding-bottom: 75px;
     }
 
     .quote-style-bar-text {
