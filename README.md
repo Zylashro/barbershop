@@ -27,6 +27,7 @@ This project is designed as a service website for an imaginary barber shop, *Har
 
 
 ## Project
+
 The project was made to demonstrate the knowledge I've acquired throughout the Code Institute Full Stack Developer course thus far. With the goal of making a clean and visually appealing website using nothing but HTML and CSS.  
 
 This project is a seven page service website that I am using to display my skills and knowledge when it comes to front end development. The seven pages and their purpose are as follow:
@@ -40,6 +41,7 @@ This project is a seven page service website that I am using to display my skill
 7. **Join Us:** Page asking a potential employee to fill in the form in order to apply.
 
 ## UX
+
 This website highlights the services of Harrison Cuts. Showcasing the type of service, each individual option with not only a brief description of the option but also the price and time required to complete, along with ways to contact the establishment for any reason, and an address where the user can come in person. And, most importantly, the user is able to book an appointment online by filling in the required form.
 
 ### User Stories
@@ -50,6 +52,7 @@ This website highlights the services of Harrison Cuts. Showcasing the type of se
 - The user is able to apply for a position with the establishment.
 
 ### Wireframes
+
 A link that takes you to the wireframes I made for this project. Note, that the links take you to a PDF file and do not display an image.
 
 ![PC wireframes](designDocs/wireframes/barbershopPC.pdf)
@@ -59,6 +62,7 @@ A link that takes you to the wireframes I made for this project. Note, that the 
 Upon a peek, you can see that there were changes made for the final version; some due to restrictions, others due to subjective taste.
 
 ## Features
+
 1. Responsive navigation bar.
 2. A submit form ranging over four different tabs which consists:
     - A checkbox group,
@@ -68,6 +72,7 @@ Upon a peek, you can see that there were changes made for the final version; som
 4. A Google Maps embedded into the site.
 
 ## Technologies
+
 For this project I used a number of technologies to help me finish.
 
 - HTML5
@@ -84,7 +89,7 @@ For this project I used a number of technologies to help me finish.
 
 The result of the HTML Validator can be seen in the image below:
 
-![alt text]()
+![HTML Validator](designDocs/validators/CaptureHTML.PNG)
 
 ### CSS Validator
 
@@ -95,11 +100,16 @@ The CSS Validator comes back with errors, but on closer inspection it is clear t
 ### Browsers
 
 The website was tested on these browsers:
-1. Chrome
-2. Internet Explorer
-3. Edge
 
-The site works as intended for Chrome. But both the IE and Edge versions have issues. On Edge the buttons aren't aligned in their proper places, while on IE in addition to the out of lign button, the jumbotron is completely resized as to where it's height is too high and it's width is too small, along with that all the SVGs are either cropped, or moved the left with the photos as well.
+1. Chrome
+2. Firefox
+3. Internet Explorer
+4. Edge
+5. Opera
+
+The site works as intended for Chrome and Firefox. 
+
+But the IE, Edge, and Opera versions have issues. On Edge the buttons aren't aligned in their proper places, while on IE in addition to the out of lign button, the jumbotron is completely resized as to where it's height is too high and it's width is too small, along with that all the SVGs are either cropped, or moved the left with the photos as well. On Opera the tabs are a bit squished together.
 
 ## Deployment
 
