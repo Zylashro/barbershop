@@ -233,6 +233,11 @@
     font-weight: 400;
 }
 
+/* Block */
+.sm-block {
+    display: none;
+}
+
 /* Media Queries */
 
 @media(min-width: 769px) {
@@ -246,5 +251,9 @@
 
     .box-container {
         margin-left: 20px;
+    }
+
+    .sm-block {
+        display: inline;
     }
 }
