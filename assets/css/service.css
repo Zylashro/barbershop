@@ -1,3 +1,5 @@
+/* Service */
+
 .service-container {
     padding-top: 60px;
     padding-bottom: 60px;
@@ -10,6 +12,7 @@
 }
 
 .service-info-heading {
+    text-align: center;
     margin-bottom: 20px;
     text-transform: uppercase;
     font-size: 25px;
@@ -21,21 +24,12 @@
     font-size: 16px;
 }
 
+/* Service Add Info */
+
 .service-add-info {
     margin-bottom: 20px;
     text-transform: uppercase;
     font-size: 20px;
-}
-
-.rounded-border {
-    display: grid;
-    margin: 0 auto 20px;
-    padding: 10px;
-    overflow: hidden; 
-    border: 2px solid #000000; 
-    border-radius: 50%;
-    width: 120px;
-    height: 120px;
 }
 
 .service-add-info-img {
@@ -53,6 +47,19 @@
     float: right;
 }
 
+/* Misc */
+
+.rounded-border {
+    display: grid;
+    margin: 0 auto 20px;
+    padding: 10px;
+    overflow: hidden; 
+    border: 2px solid #000000; 
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+}
+
 .btn {
     margin-top: 16px;
     width: 100%;
@@ -61,6 +68,8 @@
 .no-margin {
     margin-bottom: 0;
 }
+
+/* Service Cancel */
 
 .service-cancel-policy {
     font-size: 16px;
@@ -77,6 +86,10 @@
 /* Media Queries */
 
 @media(min-width: 769px) {
+    .service-info-heading {
+        text-align: start;
+    }
+
     .service-info-body {
         margin-bottom: 8px;
         font-size: 18px;
