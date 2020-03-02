@@ -1,3 +1,5 @@
+/* Footer */
+
 .footer-container {
     padding: 15px 15px 5px 15px;
     color: #ffffff;
@@ -15,15 +17,23 @@
     text-transform: uppercase;
 }
 
-#footer-details, 
-#footer-help {
+.footer-section-margin {
     margin-bottom: 16px;
+}
+
+/* Details and Get In Touch */
+
+.details-list {
+    list-style-type: none;
+}
+
+.details-list-item {
+    margin-bottom: 12px;
 }
 
 .footer-details-styling {
     padding-left: 15px;
-    margin-bottom: 12px;
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 300;
 }
 
@@ -31,11 +41,15 @@
     color: #ffffff;
 }
 
+/* Hover */
+
 .footer-heading-link-styling:hover,
 .social-links-item:hover {
     text-decoration: none;
     color: rgba(255, 255, 255, .5);
 }
+
+/* Social */
 
 .footer-heading-social {
     text-align: center;
@@ -48,22 +62,13 @@
     color: #ffffff;
 }
 
+/* Copyright */
+
 .copyright {
     font-size: 12px;
     text-align: center;
 }
 
-.footer-container-text-style {
+.footer-container-text-margin {
     margin-bottom: 0;   
-}
-
-.credit {
-    font-size: 12px;
-    text-align: center;
-    margin-top: 10px;
-}
-
-.credit-link-style {
-    color: rgba(255, 255, 255, .5);
-    text-decoration: none;
 }

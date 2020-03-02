@@ -9,9 +9,9 @@
         <script src="https://kit.fontawesome.com/7e899f220f.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="assets/css/default.css" type="text/css">
         <link rel="stylesheet" href="assets/css/header.css" type="text/css">
-        <link rel="stylesheet" href="assets/css/index.css" type="text/css">
+        <link rel="stylesheet" href="assets/css/supplementary.css" type="text/css">
         <link rel="stylesheet" href="assets/css/footer.css" type="text/css">
-        <title>Home | Harrison Cuts</title>
+        <title>Join | Harrison Cuts</title>
     </head>
     <body>
         <header>
@@ -26,7 +26,7 @@
                 </button>
                 <div class="navbar-collapse collapse" id="navbarDropdownMenu">
                     <ul class="navbar-nav ml-auto" id="mainNav">
-                        <li class="nav-item main-nav-item active ml-2">
+                        <li class="nav-item main-nav-item ml-2">
                             <a class="nav-link main-nav-link" href="index.html">Home</a>
                         </li>
                         <li class="nav-item main-nav-item ml-2">
@@ -42,72 +42,86 @@
                 </div>
             </nav>
         </header>
-        <!-- Main Section: Type of service -->
-        <main>
-            <div class="container-fluid hero-container">
-                <div class="opaque-overlay">&nbsp;</div>
-                <div class="row">
-                    <div class="col-sm-12 col-lg-8 offset-lg-2">
-                        <section class="jumbotron">
-                            <h1 class="jumbotron-header">What We Do!</h1>
-                            <p class="lead">
-                                Here at Harrison Cuts we embrace old-fashioned techniques for the modern gentleman. Our barbers are skilled in all form of men's hair care; beard trims, hot towel shaves, and yes, classic haircuts.
-                            </p>
-                            <p class="lead">
-                                When you enter through our front doors you won't be treated to just a cut or shave, but an experience.
-                            </p>
-                        </section>
-                    </div>
-                </div>
-            </div>
-        </main>
-        <!-- Section: Quotes -->
+        <!-- Section: Join Us -->
         <section>
-            <div class="container quotes-container">
+            <div class="container supplementary-container">
                 <div class="row">
-                    <div class="col-12 quotes-header">
-                        <h2>Quotes:</h2>
+                    <div class="col-sm-12 col-md-9 main-container">
+                        <h2 class="supplementary-heading">Join Us</h2>
+                        <p>
+                            Do you want to join and build the Harrison Cuts of the future? We are always looking to expand our team with open, courageous, and responsible individuals.
+                        </p>
+                        <p>
+                            Please fill in the form below and attach your CV if you would like to work with us.
+                        </p>
+                        <!-- Form: Join Us -->
+                        <form action="" method="post" class="form-container">
+                            <div class="form-group">
+                                <label for="positionSelect">Which position would you like to apply for? <span class="required-input">*</span></label>
+                                <select class="form-control custom-select" id="positionSelect" required>
+                                    <option value="" disabled selected>Select a position...</option>
+                                    <option value="barber">Barber</option>
+                                    <option value="accountant">Accountant</option>
+                                    <option value="webDeveloper">Web Developer</option>
+                                    <option value="supportTeam">Support Team</option>
+                                    <option value="hr">HR</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="fullName" class="label-heading">Full Name   <span class="required-input">*</span></label>
+                                <input type="text" class="form-control" id="fullName" placeholder="Enter your full name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="phoneNumber" class="label-heading">Phone Number <span class="required-input">*</span></label>
+                                <input type="tel" class="form-control" id="phoneNumber" placeholder="Enter your phone number" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="emailAddress" class="label-heading">Email address   <span class="required-input">*</span></label>
+                                <input type="email" class="form-control" id="emailAddress" aria-describedby="emailAddress" placeholder="Enter your email address" required>
+                                <small id="emailAddress" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                            </div>
+                            <div class="form-group">
+                                <label for="textarea" class="label-heading">Message</label>
+                                <textarea class="form-control" id="textarea" rows="3"></textarea>
+                            </div>
+                            <div class="form-group">
+                                <label for="inputFile">CV and any additional files  <span class="required-input">*</span></label>
+                                <div class="custom-file">
+                                    <input type="file" class="custom-file-input" id="inputFile" required>
+                                    <label class="custom-file-label" for="inputFile" aria-describedby="inputFile">Choose file...</label>
+                                </div>
+                            </div>
+                            <div class="text-right">
+                                <button type="submit" class="btn btn-submit">Submit</button>
+                            </div>
+                        </form>
                     </div>
-                </div>
-                <img src="assets/images/svg/divider/barber-edited.svg" class="divider" alt="Divider between section heading and content">
-                <div class="row">
-                    <div class="col-12 col-md-4">
-                        <div class="media">
-                            <div class="quote-style-bar-pic d-none d-sm-block">
-                                <img src="assets/images/quote images/man-in-blue-dress-shirt-and-black-formal-suit-1043473.jpg" class="rounded-circle mr-3 quote-img">
-                            </div>
-                            <div class="media-body">
-                                <blockquote class="blockquote">
-                                    <p class="quote-style-text quote-style-bar-text">Cosy place, super professional and friendly folks! I always get a nice haircut! I strongly recommend it!</p>
-                                    <p class="quote-credit">- Wayne Slate</p>
-                                </blockquote>
-                            </div>
-                        </div>
+                    <!-- Side-navigation Bar for supplementary pages -->
+                    <div class="col-3 d-none d-sm-block">
+                        <nav class="navbar side-nav-container">
+                            <h2 class="-supplementary-heading">Get In Touch</h2>
+                            <ul class="navbar-nav" id="sideNav">
+                                <li class="nav-item">
+                                    <a class="nav-link side-nav-styling" href="customerSupport.html">Customer Support</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link side-nav-styling" href="contact.html">Contact Us</a>
+                                </li>
+                                <li class="nav-item active">
+                                    <a class="nav-link side-nav-styling active" href="join.html">Join Us</a>
+                                </li>
+                            </ul>
+                        </nav>
                     </div>
-                    <div class="col-12 col-md-4">
-                        <div class="media">
-                            <div class="quote-style-bar-pic d-none d-sm-block">
-                                <img src="assets/images/quote images/shallow-focus-photo-of-man-in-white-and-black-polka-dot-2269872.jpg" class="rounded-circle mr-3 quote-img">
-                            </div>
-                            <div class="media-body">
-                                <blockquote class="blockquote">
-                                    <p class="quote-style-text quote-style-bar-text">Professional and pleasant. They do that little extra, which is very much appreciated.</p>                                        
-                                    <p class="quote-credit">- Travis Shaw</p>
-                                </blockquote>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-4">
-                        <div class="media">
-                            <div class="quote-style-bar-pic d-none d-sm-block">
-                                <img src="assets/images/quote images/man-wearing-blue-crew-neck-t-shirt-2379005.jpg" class="rounded-circle mr-3 quote-img">
-                            </div>
-                            <div class="media-body">
-                                <blockquote class="blockquote">
-                                    <p class="quote-style-text quote-style-bar-text">Incredibly pleased with the cut and service!</p>                                        
-                                    <p class="quote-credit">- James Musser</p>
-                                </blockquote>
-                            </div>
+                    <!-- Side-navigation Bar for supplementary pages on Mobile -->
+                    <div class="row">
+                        <div class="col-sm-12 d-sm-block d-md-none">
+                            <nav class="navbar side-nav-container">
+                                <h2 class="supplementary-heading">Get In Touch</h2>
+                                <a class="btn sm-btn side-nav-styling" href="customerSupport.html">Customer Support</a>
+                                <a class="btn sm-btn side-nav-styling" href="contact.html">Contact Us</a>
+                                <a class="btn sm-btn side-nav-styling" href="join.html">Join Us</a>
+                            </nav>
                         </div>
                     </div>
                 </div>

@@ -11,13 +11,14 @@
         <link rel="stylesheet" href="assets/css/header.css" type="text/css">
         <link rel="stylesheet" href="assets/css/book.css" type="text/css">
         <link rel="stylesheet" href="assets/css/footer.css" type="text/css">
-        <title>Harrison Cuts | Book</title>
+        <title>Book | Harrison Cuts</title>
     </head>
     <body>
         <header>
+            <!-- Navigation Bar -->
             <nav class="navbar navbar-dark navbar-bg-color navbar-expand-sm">
                 <a href="index.html" class="navbar-brand">
-                    <img class="logo-icon" src="assets/images/svg/logo/gentleman.svg" alt="Logo">
+                    <img class="logo-icon" src="assets/images/svg/logo/gentleman-edited.svg" alt="Logo">
                     <div class="logo-text">Harrison Cuts</div>
                 </a>
                 <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarDropdownMenu" aria-controls="navbarDropdownMenu" aria-expanded="false" aria-label="Toggle navigation">
@@ -41,30 +42,40 @@
                 </div>
             </nav>
         </header>
+        <!-- Section: Book -->
         <section>
             <div class="container book-container">
                 <div class="row">
                     <div class="col-sm-12 col-md-10 offset-md-1">
+                        <!-- Tabs -->
                         <div class="nav nav-tabs" id="nav-tab" role="tablist">
                             <a class="nav-item nav-link nav-tab" id="nav-service-tab" data-toggle="tab" href="#service" role="tab" aria-controls="nav-service-tab" aria-selected="true">Service</a>
                             <a class="nav-item nav-link nav-tab" id="nav-barber-tab" data-toggle="tab" href="#barber" role="tab" aria-controls="nav-barber-tab" aria-selected="false">Barber</a>
                             <a class="nav-item nav-link nav-tab" id="nav-time-tab" data-toggle="tab" href="#time" role="tab" aria-controls="nav-time-tab" aria-selected="false">Time</a>
                             <a class="nav-item nav-link nav-tab" id="nav-client-tab" data-toggle="tab" href="#client" role="tab" aria-controls="nav-client-tab" aria-selected="false">Client</a>
                         </div>
+                        <!-- Form: Book -->
                         <form action="" method="post">
                             <div class="tab-content" id="nav-tabContent">
+                                <!-- Service Tab -->
                                 <div id="service" class="tab-pane fade show active" role="tabpanel" aria-labelledby="nav-service-tab">
                                     <h3 class="book-heading"><span class="sm-block"><i class="fas fa-cut"></i> </span>Select A Service:   <span class="required-input">*</span></h3>
-                                    <div class="form-group row">
+                                    <!-- Important Div for checkbox checking: Start -->
+                                    <!-- See the JS at the bottom -->
+                                    <div class="form-group checkbox-group row required">
+                                        <input type="radio" name="servicesSelected" id="servicesSelected" required style="display: none;">
+                                    <!-- Important Div for checkbox checking: End -->
+                                        <!-- Each checkbox option is held within their own separate box-container -->
                                         <div class="col-sm-12 col-md-10">
                                             <div class="form-check box-container">
                                                 <div class="box">
                                                     <div class="box-content">
                                                         <div class="row box-align">
                                                             <div class="col-8 col-md-6">
-                                                                <input class="form-check-input radio-field-default" type="radio" name="serviceRadios" id="serviceRadioOne" value="optionOne" required>
-                                                                <label class="form-check-label box-content-heading radio-field-custom" for="serviceRadioOne">Haircut</label>
+                                                                <input class="form-check-input checkbox-field-default" type="checkbox" name="serviceCheckboxes" id="serviceCheckboxOne" value="optionOne">
+                                                                <label class="form-check-label box-content-heading checkbox-field-custom" for="serviceCheckboxOne">Haircut</label>
                                                             </div>
+                                                            <!-- Button that expands to reveal more information for the option -->
                                                             <div class="col-2 col-md-6">
                                                                 <div class="read-more-container">
                                                                     <a class="btn read-more-btn" data-toggle="collapse" aria-expanded="false" aria-controls="serviceItemOne" href="#serviceItemOne">
@@ -73,6 +84,7 @@
                                                                 </div>
                                                             </div>
                                                         </div>
+                                                        <!-- Collapsible additional information about the option -->
                                                         <div class="collapse collapse-content-container" id="serviceItemOne" aria-expanded="false">
                                                             <div class="collapse-content">
                                                                 <p class="collapse-content-text">Using traditional barbering methods to tailor the clients desired look.</p>
@@ -87,8 +99,8 @@
                                                     <div class="box-content">
                                                         <div class="row box-align">
                                                             <div class="col-8 col-md-6">
-                                                                <input class="form-check-input radio-field-default" type="radio" name="serviceRadios" id="serviceRadioTwo" value="optionTwo" required> 
-                                                                <label class="form-check-label box-content-heading radio-field-custom" for="serviceRadioTwo">Clean Head Shave</label>
+                                                                <input class="form-check-input checkbox-field-default" type="checkbox" name="serviceCheckboxes" id="serviceCheckboxTwo" value="optionTwo"> 
+                                                                <label class="form-check-label box-content-heading checkbox-field-custom" for="serviceCheckboxTwo">Clean Head Shave</label>
                                                             </div>
                                                             <div class="col-2 col-md-6">
                                                                 <div class="read-more-container">
@@ -112,8 +124,8 @@
                                                     <div class="box-content">
                                                         <div class="row box-align">
                                                             <div class="col-8 col-md-6">
-                                                                <input class="form-check-input radio-field-default" type="radio" name="serviceRadios" id="serviceRadioThree" value="optionThree" required>  
-                                                                <label class="form-check-label box-content-heading radio-field-custom" for="serviceRadioThree">Beard Trim</label>
+                                                                <input class="form-check-input checkbox-field-default" type="checkbox" name="serviceCheckboxes" id="serviceCheckboxThree" value="optionThree">  
+                                                                <label class="form-check-label box-content-heading checkbox-field-custom" for="serviceCheckboxThree">Beard Trim</label>
                                                             </div>
                                                             <div class="col-2 col-md-6">
                                                                 <div class="read-more-container">
@@ -137,8 +149,8 @@
                                                     <div class="box-content">
                                                         <div class="row box-align">
                                                             <div class="col-8 col-md-6">
-                                                                <input class="form-check-input radio-field-default" type="radio" name="serviceRadios" id="serviceRadioFour" value="optionFour" required> 
-                                                                <label class="form-check-label box-content-heading radio-field-custom" for="serviceRadioFour">Line Up Beard</label> 
+                                                                <input class="form-check-input checkbox-field-default" type="checkbox" name="serviceCheckboxes" id="serviceCheckboxFour" value="optionFour"> 
+                                                                <label class="form-check-label box-content-heading checkbox-field-custom" for="serviceCheckboxFour">Line Up Beard</label> 
                                                             </div>
                                                             <div class="col-2 col-md-6">
                                                                 <div class="read-more-container">
@@ -162,8 +174,8 @@
                                                     <div class="box-content">
                                                         <div class="row box-align">
                                                             <div class="col-8 col-md-6">
-                                                                <input class="form-check-input radio-field-default" type="radio" name="serviceRadios" id="serviceRadioFive" value="optionFive" required> 
-                                                                <label class="form-check-label box-content-heading radio-field-custom" for="serviceRadioFive">Face Shave</label> 
+                                                                <input class="form-check-input checkbox-field-default" type="checkbox" name="serviceCheckboxes" id="serviceCheckboxFive" value="optionFive"> 
+                                                                <label class="form-check-label box-content-heading checkbox-field-custom" for="serviceCheckboxFive">Face Shave</label> 
                                                             </div>
                                                             <div class="col-2 col-md-6">
                                                                 <div class="read-more-container">
@@ -187,8 +199,8 @@
                                                     <div class="box-content">
                                                         <div class="row box-align">
                                                             <div class="col-8 col-md-6">
-                                                                <input class="form-check-input radio-field-default" type="radio" name="serviceRadios" id="serviceRadioSix" value="optionSix" required> 
-                                                                <label class="form-check-label box-content-heading radio-field-custom" for="serviceRadioSix">Haircut + Beard Trim</label> 
+                                                                <input class="form-check-input checkbox-field-default" type="checkbox" name="serviceCheckboxes" id="serviceCheckboxSix" value="optionSix"> 
+                                                                <label class="form-check-label box-content-heading checkbox-field-custom" for="serviceCheckboxSix">Haircut + Beard Trim</label> 
                                                             </div>
                                                             <div class="col-2 col-md-6">
                                                                 <div class="read-more-container">
@@ -210,9 +222,11 @@
                                         </div>
                                     </div>
                                 </div>
+                                <!-- Barber Tab -->
                                 <div id="barber" class="tab-pane fade show" role="tabpanel" aria-labelledby="nav-barber-tab">
                                     <h3 class="book-heading"><span class="sm-block"><i class="fas fa-users"></i> </span>Select A Barber:   <span class="required-input">*</span></h3>
                                     <div class="form-group row">
+                                        <!-- Each radio option is held within their own separate box-container -->
                                         <div class="col-sm-12 col-md-10">
                                             <div class="form-check box-container">
                                                 <div class="box">
@@ -251,7 +265,9 @@
                                                             <div class="collapse-content">
                                                                 <div class="row">
                                                                     <div class="col-sm-12 col-md-9">
-                                                                        <p class="collapse-content-text">Info about barber.</p>
+                                                                        <p class="collapse-content-text">
+                                                                            Simon is a Master Barber with 14 years of experience. Trained in the old-fashioned style of hair cutting, Simon has dedicated the last decade towards her absolute passion, the art of Men's grooming.
+                                                                        </p>
                                                                     </div>
                                                                     <div class="col-md-1 d-none d-md-block">
                                                                         <img src="assets/images/barber images/petr-sevcovic-auCjz0gucr0-unsplash.jpg" class="rounded-circle barber-img" alt="Image of Simon">
@@ -282,7 +298,9 @@
                                                             <div class="collapse-content">
                                                                 <div class="row">
                                                                     <div class="col-sm-12 col-md-9">
-                                                                        <p class="collapse-content-text">Info about barber.</p>
+                                                                        <p class="collapse-content-text">
+                                                                            Since Bart was ten he loved playing around with scissors and cutting his friends hair. He realized it was worth getting into to trouble over, he must really love it. As Chris grew so did his passion, leading to a 5 year career with Regis where he honed many of his skills.
+                                                                        </p>
                                                                     </div>
                                                                     <div class="col-md-1 d-none d-md-block">
                                                                         <img src="assets/images/barber images/julian-wan-WNoLnJo7tS8-unsplash.jpg" class="rounded-circle barber-img" alt="Image of Bart">
@@ -313,7 +331,9 @@
                                                             <div class="collapse-content">
                                                                 <div class="row">
                                                                     <div class="col-sm-12 col-md-9">
-                                                                        <p class="collapse-content-text">Info about barber.</p>
+                                                                        <p class="collapse-content-text">
+                                                                            In 1999 after receiving a Master Cosmetology license, Eugene packed up his things and headed to Atlanta, Georgia to expand his experience and hone his skills. Eugene's love for fashion and travel has carved him into a well-rounded chameleon with an edgy dash of humor.
+                                                                        </p>
                                                                     </div>
                                                                     <div class="col-md-1 d-none d-md-block">
                                                                         <img src="assets/images/barber images/joseph-gonzalez-iFgRcqHznqg-unsplash.jpg" class="rounded-circle barber-img" alt="Image of Eugene">
@@ -344,7 +364,9 @@
                                                             <div class="collapse-content">
                                                                 <div class="row">
                                                                     <div class="col-sm-12 col-md-9">
-                                                                        <p class="collapse-content-text">Info about barber.</p>
+                                                                        <p class="collapse-content-text">
+                                                                            A trained Barber with a back ground in Fashion and Art, Mike is a firm believer in the trans-formative power of a good haircut. His attention to detail and ability to connect with his clients while delivering their desired cuts make it seem like he is reading their mind.
+                                                                        </p>
                                                                     </div>
                                                                     <div class="col-md-1 d-none d-md-block">
                                                                         <img src="assets/images/barber images/cobro-JDJIDtZNJsM-unsplash.jpg" class="rounded-circle barber-img" alt="Image of Mike">
@@ -358,14 +380,18 @@
                                         </div>
                                     </div>
                                 </div>
+                                <!-- Time Tab -->
                                 <div id="time" class="tab-pane fade show" role="tabpanel" aria-labelledby="nav-time-tab">
                                     <h3 class="book-heading"><span class="sm-block"><i class="fas fa-calendar-alt"></i> </span>Select A Time:</h3>
+                                    <!-- Date Picker -->
                                     <div class="form-group">
                                         <label for="date" class="label-heading label-heading-date">Date:   <span class="required-input">*</span></label>
                                         <input type="date" id="date" name="date" min="2020-01-01" max="2020-12-31" class="date-select" required>
                                     </div>
                                     <div class="form-group">
                                         <label for="" class="label-heading">Time:   <span class="required-input">*</span></label>
+                                        <!-- Radio Button to select a time -->
+                                        <!-- Idea for the button list came from this StackOverflow thread - https://stackoverflow.com/questions/16242980/making-radio-buttons-look-like-buttons-instead -->
                                         <ul class="time-list">
                                             <li class="form-check time-list-item">
                                                 <input class="form-check-input time-input radio-field-default" type="radio" name="timeRadios" id="timeRadioOne" value="optionOne" required>
@@ -442,7 +468,9 @@
                                         </ul>
                                     </div>
                                 </div>
+                                <!-- Client Tab -->
                                 <div id="client" class="tab-pane fade show" role="tabpanel" aria-labelledby="nav-client-tab">
+                                    <!-- Form inside the main form -->
                                     <h3 class="book-heading"><span class="sm-block"><i class="fas fa-info-circle"></i> </span>Client Information</h3>
                                     <div class="form-group">
                                         <label for="fullName" class="label-heading">Full Name   <span class="required-input">*</span></label>
@@ -460,17 +488,17 @@
                                     <div class="form-group">
                                         <label for="textarea" class="label-heading">Additional Information</label>
                                         <textarea class="form-control" id="textarea" rows="3"></textarea>
-                                      </div>
+                                    </div>
                                 </div>
                             </div>
                             <div class="text-right">
-                                <button type="submit" class="btn btn-submit">Submit</button>
+                                <button type="submit" id="submitButton" class="btn btn-submit">Submit</button>
                             </div>
                         </form>
                         <div class="service-cancel-policy">
                             <h2 class="service-cancel-policy-heading">Late cancellation policy</h2>
                             <p>
-                              We ask that any cancellation be notified to the barbershop at least 24 hours before the appointment. If you do cancel within 24 hours of your appointment you’ll be asked to pay for the service that was booked.                        
+                                We ask that any cancellation be notified to the barbershop at least 24 hours before the appointment. If you do cancel within 24 hours of your appointment you’ll be asked to pay for the service that was booked.                        
                             </p>
                         </div>
                     </div>
@@ -479,28 +507,28 @@
         </section>
         <footer class="container-fluid footer-container footer-bg-color">
             <div class="row">
-                <div class="col-sm-5" id="footer-details">
+                <!-- Footer: Details about the establishment -->
+                <div class="col-sm-5 footer-section-margin">
                     <h4 class="footer-heading">Details</h4>
-                    <dl>
-                        <dt>Address</dt>
-                            <dd class="footer-details-styling">408 Williams Street, Depew, NY USA</dd>
-                        <dt>Phone</dt>
-                            <dd class="footer-details-styling">555-846-8491</dd>
-                        <dt>Email</dt>
-                            <dd class="footer-details-styling">harrison.cuts@business.com</dd>
-                    </dl>
+                    <ul class="details-list">
+                        <li class="details-list-item">Address: <span class="footer-details-styling">408 Williams Street, Depew, NY USA</span></li>
+                        <li class="details-list-item">Phone: <span class="footer-details-styling">555-846-8491</span></li>
+                        <li class="details-list-item">Email: <span class="footer-details-styling">harrison.cuts@business.com</span></li>
+                    </ul>
                 </div>
-                <div class="col-sm-2" id="footer-help">
+                <!-- Footer: Supplementary pages -->
+                <div class="col-sm-2 footer-section-margin">
                     <h4 class="footer-heading">Get In Touch</h4>
-                    <a href="#" class="footer-heading-link-styling">Customer Support</a>
+                    <a href="customerSupport.html" class="footer-heading-link-styling">Customer Support</a>
                     <br>
-                    <a href="#" class="footer-heading-link-styling">Contact Us</a>
+                    <a href="contact.html" class="footer-heading-link-styling">Contact Us</a>
                     <br>
-                    <a href="#" class="footer-heading-link-styling">Join Us</a>
+                    <a href="join.html" class="footer-heading-link-styling">Join Us</a>
                 </div>
-                <div class="col-sm-5 footer-heading-social">
-                    <h4 class="footer-heading">Social</h4>
-                    <ul class="list-inline social-links">
+                <!-- Footer: Social media links -->
+                <div class="col-sm-5">
+                    <h4 class="footer-heading footer-heading-social">Social</h4>
+                    <ul class="list-inline social-links text-center">
                         <li class="list-inline-item">
                             <a href="https://www.facebook.com/" target="_blank" class="social-links-item">
                                 <i class="fab fa-facebook" aria-hidden="true"></i>
@@ -528,29 +556,11 @@
                     </ul>
                 </div>
             </div>
+            <!-- Footer: Copyright -->
             <div class="row">
                 <div class="col">
-                    <p class="copyright small footer-container-text-style">
+                    <p class="copyright footer-container-text-margin">
                         Copyright © 2020 Harrison Cuts. All rights reserved.
-                    </p>
-                </div>
-            </div>
-            <div class="row credit">
-                <div class="col">
-                    <p class="small small footer-container-text-style">
-                        Icons made by <a href="https://www.flaticon.com/authors/good-ware" title="Good Ware" target="_blank" class="credit-link-style">Good Ware</a> from <a href="https://www.flaticon.com/" title="Flaticon" target="_blank" class="credit-link-style"> www.flaticon.com</a>
-                    </p>
-                    <p class="small footer-container-text-style">
-                        Photo by <a href="https://unsplash.com/@sevcovic23?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" title="Petr Sevcovic" target="_blank" class="credit-link-style">Petr Sevcovic</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" title="Unsplash" target="_blank" class="credit-link-style">Unsplash</a>
-                    </p>
-                    <p class="small footer-container-text-style">
-                        Photo by <a href="https://unsplash.com/@julianwan?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" title="Julian Wan" target="_blank" class="credit-link-style">Julian Wan</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" title="Unsplash" target="_blank" class="credit-link-style">Unsplash</a>
-                    </p>
-                    <p class="small footer-container-text-style">
-                        Photo by <a href="https://unsplash.com/@miracletwentyone?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" title="Joseph Gonzalez" target="_blank" class="credit-link-style">Joseph Gonzalez</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" title="Unsplash" target="_blank" class="credit-link-style">Unsplash</a>
-                    </p>
-                    <p class="small footer-container-text-style">
-                        Photo by <a href="https://unsplash.com/@cobro?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" title="Cobro" target="_blank" class="credit-link-style">Cobro</a> on <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" title="Unsplash" target="_blank" class="credit-link-style">Unsplash</a>
                     </p>
                 </div>
             </div>
@@ -558,5 +568,13 @@
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <!-- Custom script to check if the checkbox field in the Service Tab has been checked -->
+        <!-- JS written by an acquaintance of mine -->
+        <script>
+            $(".checkbox-field-default").on('change', function() {
+                let selected = $('div.checkbox-group.required :checkbox:checked').length > 0;
+                $("#servicesSelected").prop("checked", selected);
+            });
+        </script>
     </body>
 </html>

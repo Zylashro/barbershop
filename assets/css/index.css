@@ -1,3 +1,6 @@
+/* Main Section */
+
+/* Style taken from Code Institute's "Bootstrapping Your Next Big Idea With Bootstrap 4": Start */
 .hero-container {
     height: 100vh;
     background: url(../images/backgrounds/alwin-kroon-pszyJeq6DFs-unsplash.jpg) no-repeat center fixed;
@@ -19,11 +22,13 @@
     background-color: rgba(0, 0, 0, 0.2);
 }
 
+/* Style taken from Code Institute's "Bootstrapping Your Next Big Idea With Bootstrap 4": End */
+
 .jumbotron {
     padding-top: 14px;
     padding-bottom: 14px;
     margin-top: 32px;
-    background-color: rgba(29, 27, 27, 0.5);
+    background-color: rgba(29, 27, 27, 0.7);
 }
 
 .jumbotron-header {
@@ -37,9 +42,11 @@
     color: #eeeeee;
 }
 
+/* Quotes Section */
+
 .quotes-container {
-    padding-top: 75px;
-    padding-bottom: 75px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .quotes-header {
@@ -102,6 +109,11 @@
 
     .divider {
         width: 140px;
+    }
+
+    .quotes-container {
+        padding-top: 75px;
+        padding-bottom: 75px;
     }
 
     .quote-style-bar-text {
