@@ -62,17 +62,22 @@
     font-size: 18px;
 }
 
+.box-content-label {
+    display: inline-block;
+    vertical-align: middle;
+}
+
 /* Checkbox */
 
 .checkbox-field-default {
     display: none;
 }
 
-.checkbox-field-custom::after {
+.checkbox-field-custom::before {
     display: inline-block;
     width: 24px;
     height: 24px;
-    margin-left: 8px;
+    margin-right: 8px;
 	border: 1px solid #eeeeee;
 	border-radius: 8px;
     overflow: hidden;
@@ -84,7 +89,7 @@
     color: #504e4e;
 }
 
-.checkbox-field-default:checked + .checkbox-field-custom::after {
+.checkbox-field-default:checked + .checkbox-field-custom::before {
     content: "\2714";
     font-weight: 600;
     background-color: #eeeeee;
@@ -96,11 +101,11 @@
     display: none;
 }
 
-.radio-field-custom::after {
+.radio-field-custom::before {
     display: inline-block;
     width: 24px;
     height: 24px;
-    margin-left: 8px;
+    margin-right: 8px;
 	border: 1px solid #eeeeee;
 	border-radius: 50%;
     overflow: hidden;
@@ -112,7 +117,7 @@
     color: #504e4e;
 }
 
-.radio-field-default:checked + .radio-field-custom::after {
+.radio-field-default:checked + .radio-field-custom::before {
     content: "\2714";
     font-weight: 600;
     background-color: #eeeeee;
