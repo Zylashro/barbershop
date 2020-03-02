@@ -64,24 +64,26 @@ Upon a peek, you can see that there were changes made for the final version; som
 ## Features
 
 1. Responsive navigation bar.
-2. A submit form ranging over four different tabs which consists:
-    - A checkbox group,
+2. Stacking columns.
+3. A submit form ranging over four different tabs which consists of:
+    - A checkbox group, with custom JS written to check and validate the input,
     - Radio buttons,
-    - And two more forms.
-3. Form validation
-4. A Google Maps embedded into the site.
+    - And two more forms with the ability to attach a file.
+4. Form validation.
+5. A Google Maps embedded into the site.
 
 ## Technologies
 
 For this project I used a number of technologies to help me finish.
 
-- HTML5
-- CSS3
-- Bootstrap
-- Github
-- Github pages
-- VsCode
-- Balsamiq
+- **HTML5:** Modern HTML to form the structure of the site.
+- **CSS3:** Used to style the site along with Flexbox and a bit of Grid.
+- **Bootstrap:** A front end framework used to simplify the grid system of the site and allow basic JS functionality for the project.
+- **Git:** Used for version control from the beginning of the project.
+- **Github:** An off-site repository used to store the source code for the project.
+- **Github Pages:** GitHub's own hosting service used to deploy the project.
+- **VsCode:** Source code editor used to write, edit, test, and debug the source code.
+- **Balsamiq:** A wireframe/mockup application that allowed me to create the basic structural design of the project. 
 
 ## Testing
 
@@ -109,7 +111,7 @@ The website was tested on these browsers:
 
 The site works as intended for Chrome and Firefox. 
 
-But the IE, Edge, and Opera versions have issues. On Edge the buttons aren't aligned in their proper places, while on IE in addition to the out of lign button, the jumbotron is completely resized as to where it's height is too high and it's width is too small, along with that all the SVGs are either cropped, or moved the left with the photos as well. On Opera the tabs are a bit squished together.
+But the IE, Edge, and Opera versions have issues. On Edge the buttons aren't aligned in their proper places, while on IE in addition to the out of alignment buttons, the jumbotron is completely resized as to where it's height is too high and it's width is too small, along with that all the SVGs are either cropped, or moved the left with the photos as well. On Opera the tabs are a bit squished together.
 
 ## Deployment
 
