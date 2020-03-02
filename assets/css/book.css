@@ -1,16 +1,25 @@
+/* Misc */
+
 .book-container {
     margin: 40px auto 40px;
-}
-
-.nav-tab {
-    color: #212529;
-    align-items: center;
 }
 
 .book-heading {
     margin: 10px 0 20px;
     text-transform: uppercase;
     color: #212529;
+}
+
+.label-heading {
+    color: #212529;
+    text-transform: uppercase;
+}
+
+/* Tabs */
+
+.nav-tab {
+    color: #212529;
+    align-items: center;
 }
 
 .required-input {
@@ -23,6 +32,8 @@
 .form-check {
     padding-left: 0;
 }
+
+/* Box */
 
 .box-container {
     width: 100%;
@@ -51,6 +62,8 @@
     font-size: 18px;
 }
 
+/* Checkbox */
+
 .checkbox-field-default {
     display: none;
 }
@@ -76,6 +89,8 @@
     font-weight: 600;
     background-color: #eeeeee;
 }
+
+/* Radio button */
 
 .radio-field-default {
     display: none;
@@ -103,9 +118,23 @@
     background-color: #eeeeee;
 }
 
+/* Button */
+
 .btn {
     color: #eeeeee;
 }
+
+.btn-submit {
+    margin-bottom: 16px;
+    background: #6e6a6a;
+}
+
+.btn-submit:hover {
+    color: #212529;
+    background-color: #504e4e; 
+}
+
+/* Read More */
 
 .read-more-container {
     margin-bottom: 10px;
@@ -133,6 +162,8 @@
     font-weight: 400;
 }
 
+/* Icon and Image */
+
 .icon-container {
     padding-right: 35px;
     padding-top: 5px;
@@ -145,10 +176,7 @@
     text-align: end;
 }
 
-.label-heading {
-    color: #212529;
-    text-transform: uppercase;
-}
+/* Time Tab */
 
 .label-heading-date {
     display: block;
@@ -190,15 +218,7 @@
     background: #eeeeee;
 }
 
-.btn-submit {
-    margin-bottom: 16px;
-    background: #6e6a6a;
-}
-
-.btn-submit:hover {
-    color: #212529;
-    background-color: #504e4e; 
-}
+/* Service Cancel */
 
 .service-cancel-policy {
     font-size: 16px;

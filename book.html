@@ -15,6 +15,7 @@
     </head>
     <body>
         <header>
+            <!-- Navigation Bar -->
             <nav class="navbar navbar-dark navbar-bg-color navbar-expand-sm">
                 <a href="index.html" class="navbar-brand">
                     <img class="logo-icon" src="assets/images/svg/logo/gentleman.svg" alt="Logo">
@@ -41,22 +42,30 @@
                 </div>
             </nav>
         </header>
+        <!-- Section: Book -->
         <section>
             <div class="container book-container">
                 <div class="row">
                     <div class="col-sm-12 col-md-10 offset-md-1">
+                        <!-- Tabs -->
                         <div class="nav nav-tabs" id="nav-tab" role="tablist">
                             <a class="nav-item nav-link nav-tab" id="nav-service-tab" data-toggle="tab" href="#service" role="tab" aria-controls="nav-service-tab" aria-selected="true">Service</a>
                             <a class="nav-item nav-link nav-tab" id="nav-barber-tab" data-toggle="tab" href="#barber" role="tab" aria-controls="nav-barber-tab" aria-selected="false">Barber</a>
                             <a class="nav-item nav-link nav-tab" id="nav-time-tab" data-toggle="tab" href="#time" role="tab" aria-controls="nav-time-tab" aria-selected="false">Time</a>
                             <a class="nav-item nav-link nav-tab" id="nav-client-tab" data-toggle="tab" href="#client" role="tab" aria-controls="nav-client-tab" aria-selected="false">Client</a>
                         </div>
+                        <!-- Form: Book -->
                         <form action="" method="post">
                             <div class="tab-content" id="nav-tabContent">
+                                <!-- Service Tab -->
                                 <div id="service" class="tab-pane fade show active" role="tabpanel" aria-labelledby="nav-service-tab">
                                     <h3 class="book-heading"><span class="sm-block"><i class="fas fa-cut"></i> </span>Select A Service:   <span class="required-input">*</span></h3>
+                                    <!-- Important Div for checkbox checking: Start -->
+                                    <!-- See the JS at the bottom -->
                                     <div class="form-group checkbox-group row required">
                                         <input type="radio" name="servicesSelected" id="servicesSelected" required style="display: none;">
+                                    <!-- Important Div for checkbox checking: End -->
+                                        <!-- Each checkbox option is held within their own separate box-container -->
                                         <div class="col-sm-12 col-md-10">
                                             <div class="form-check box-container">
                                                 <div class="box">
@@ -66,6 +75,7 @@
                                                                 <input class="form-check-input checkbox-field-default" type="checkbox" name="serviceCheckboxes" id="serviceCheckboxOne" value="optionOne">
                                                                 <label class="form-check-label box-content-heading checkbox-field-custom" for="serviceCheckboxOne">Haircut</label>
                                                             </div>
+                                                            <!-- Button that expands to reveal more information for the option -->
                                                             <div class="col-2 col-md-6">
                                                                 <div class="read-more-container">
                                                                     <a class="btn read-more-btn" data-toggle="collapse" aria-expanded="false" aria-controls="serviceItemOne" href="#serviceItemOne">
@@ -74,6 +84,7 @@
                                                                 </div>
                                                             </div>
                                                         </div>
+                                                        <!-- Collapsible additional information about the option -->
                                                         <div class="collapse collapse-content-container" id="serviceItemOne" aria-expanded="false">
                                                             <div class="collapse-content">
                                                                 <p class="collapse-content-text">Using traditional barbering methods to tailor the clients desired look.</p>
@@ -211,9 +222,11 @@
                                         </div>
                                     </div>
                                 </div>
+                                <!-- Barber Tab -->
                                 <div id="barber" class="tab-pane fade show" role="tabpanel" aria-labelledby="nav-barber-tab">
                                     <h3 class="book-heading"><span class="sm-block"><i class="fas fa-users"></i> </span>Select A Barber:   <span class="required-input">*</span></h3>
                                     <div class="form-group row">
+                                        <!-- Each radio option is held within their own separate box-container -->
                                         <div class="col-sm-12 col-md-10">
                                             <div class="form-check box-container">
                                                 <div class="box">
@@ -367,14 +380,18 @@
                                         </div>
                                     </div>
                                 </div>
+                                <!-- Time Tab -->
                                 <div id="time" class="tab-pane fade show" role="tabpanel" aria-labelledby="nav-time-tab">
                                     <h3 class="book-heading"><span class="sm-block"><i class="fas fa-calendar-alt"></i> </span>Select A Time:</h3>
+                                    <!-- Date Picker -->
                                     <div class="form-group">
                                         <label for="date" class="label-heading label-heading-date">Date:   <span class="required-input">*</span></label>
                                         <input type="date" id="date" name="date" min="2020-01-01" max="2020-12-31" class="date-select" required>
                                     </div>
                                     <div class="form-group">
                                         <label for="" class="label-heading">Time:   <span class="required-input">*</span></label>
+                                        <!-- Radio Button to select a time -->
+                                        <!-- Idea for the button list came from this StackOverflow thread - https://stackoverflow.com/questions/16242980/making-radio-buttons-look-like-buttons-instead -->
                                         <ul class="time-list">
                                             <li class="form-check time-list-item">
                                                 <input class="form-check-input time-input radio-field-default" type="radio" name="timeRadios" id="timeRadioOne" value="optionOne" required>
@@ -451,7 +468,9 @@
                                         </ul>
                                     </div>
                                 </div>
+                                <!-- Client Tab -->
                                 <div id="client" class="tab-pane fade show" role="tabpanel" aria-labelledby="nav-client-tab">
+                                    <!-- Form inside the main form -->
                                     <h3 class="book-heading"><span class="sm-block"><i class="fas fa-info-circle"></i> </span>Client Information</h3>
                                     <div class="form-group">
                                         <label for="fullName" class="label-heading">Full Name   <span class="required-input">*</span></label>
@@ -488,7 +507,8 @@
         </section>
         <footer class="container-fluid footer-container footer-bg-color">
             <div class="row">
-                <div class="col-sm-5" id="footer-details">
+                <!-- Footer: Details about the establishment -->
+                <div class="col-sm-5 footer-section-margin">
                     <h4 class="footer-heading">Details</h4>
                     <ul class="details-list">
                         <li class="details-list-item">Address: <span class="footer-details-styling">408 Williams Street, Depew, NY USA</span></li>
@@ -496,7 +516,8 @@
                         <li class="details-list-item">Email: <span class="footer-details-styling">harrison.cuts@business.com</span></li>
                     </ul>
                 </div>
-                <div class="col-sm-2" id="footer-help">
+                <!-- Footer: Supplementary pages -->
+                <div class="col-sm-2 footer-section-margin">
                     <h4 class="footer-heading">Get In Touch</h4>
                     <a href="customerSupport.html" class="footer-heading-link-styling">Customer Support</a>
                     <br>
@@ -504,6 +525,7 @@
                     <br>
                     <a href="join.html" class="footer-heading-link-styling">Join Us</a>
                 </div>
+                <!-- Footer: Social media links -->
                 <div class="col-sm-5">
                     <h4 class="footer-heading footer-heading-social">Social</h4>
                     <ul class="list-inline social-links text-center">
@@ -534,9 +556,10 @@
                     </ul>
                 </div>
             </div>
+            <!-- Footer: Copyright -->
             <div class="row">
                 <div class="col">
-                    <p class="copyright footer-container-text-style">
+                    <p class="copyright footer-container-text-margin">
                         Copyright © 2020 Harrison Cuts. All rights reserved.
                     </p>
                 </div>
@@ -545,6 +568,8 @@
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <!-- Custom script to check if the checkbox field in the Service Tab has been checked -->
+        <!-- JS written by an acquaintance of mine -->
         <script>
             $(".checkbox-field-default").on('change', function() {
                 let selected = $('div.checkbox-group.required :checkbox:checked').length > 0;

@@ -1,3 +1,5 @@
+/* Containers */
+
 .supplementary-container {
     padding-top: 40px;
     padding-bottom: 60px;
@@ -9,6 +11,13 @@
     border-right: none;
 }
 
+.form-container {
+    border: 1px solid #e0dede;
+    padding: 20px;
+}
+
+/* Headings */
+
 .supplementary-heading {
     margin-bottom: 20px;
     text-transform: uppercase;
@@ -16,15 +25,13 @@
     font-weight: 400;
 }
 
-.form-container {
-    border: 1px solid #e0dede;
-    padding: 20px;
-}
 
 .label-heading {
     color: #212529;
     text-transform: uppercase;
 }
+
+/* Input */
 
 .required-input {
     vertical-align: top;
@@ -32,6 +39,8 @@
     font-weight: 700;
     font-size: 10px;
 }
+
+/* Submit button */
 
 .btn-submit {
     margin-bottom: 16px;
@@ -44,7 +53,9 @@
     background-color: #6e6a6a; 
 }
 
-.nav-container {
+/* Side-nav */
+
+.side-nav-container {
     display: block;
 }
 
