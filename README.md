@@ -4,7 +4,7 @@
 
 # Harrison Cuts
 
-This project is designed as a service website for an imaginary barber shop, *Harrison Cuts*, to showcase my ability to use HTML and CSS for my Milestone One Project for Code Institute. 
+This project is designed as a service website for an imaginary barber   shop, *Harrison Cuts*, to showcase my ability to use HTML and CSS for my Milestone One Project for Code Institute. 
 
 ## Table of Contents
 
@@ -30,12 +30,12 @@ This project is designed as a service website for an imaginary barber shop, *Har
 
 The project was made to demonstrate the knowledge I've acquired throughout the Code Institute Full Stack Developer course thus far. With the goal of making a clean and visually appealing website using nothing but HTML and CSS.  
 
-This project is a seven page service website that I am using to display my skills and knowledge when it comes to front end development. The seven pages and their purpose are as follow:
+This project is a seven-page service website that I am using to display my skills and knowledge when it comes to front end development. The seven pages and their purpose are as follow:
 
-1. **Home:** Landing page meant to grab the users attention and introduce the type of service one would expect.
+1. **Home:** Landing page meant to grab the user's attention and introduce the type of service one would expect.
 2. **Book:** The booking page is one big form made out of four different tabs with the sole goal of making an online appointment with the establishment.
 3. **Service:** Showcases all the different services the user can buy from the establishment.
-4. **About Us:** A bit of info about the establishment as well as a Google map as where to find them.
+4. **About Us:** A bit of info about the establishment as well as a Google map as to where to find them.
 5. **Customer Support:** Used for the user to send in a support ticket form if they've got a complaint with either the website or an employee.
 6. **Contact Us:** A form to contact the establishment regarding a matter.
 7. **Join Us:** Page asking a potential employee to fill in the form in order to apply.
@@ -65,7 +65,7 @@ Upon a peek, you can see that there were changes made for the final version; som
 
 1. Responsive navigation bar.
 2. Stacking columns.
-3. A submit form ranging over four different tabs which consists of:
+3. A submit form ranging over four different tabs which consist of:
     - A checkbox group, with custom JS written to check and validate the input,
     - Radio buttons,
     - And two more forms with the ability to attach a file.
@@ -74,13 +74,13 @@ Upon a peek, you can see that there were changes made for the final version; som
 
 ## Technologies
 
-For this project I used a number of technologies to help me finish.
+For this project, I used a number of technologies to help me finish.
 
 - **HTML5:** Modern HTML to form the structure of the site.
 - **CSS3:** Used to style the site along with Flexbox and a bit of Grid.
 - **Bootstrap:** A front end framework used to simplify the grid system of the site and allow basic JS functionality for the project.
-- **Git:** Used for version control from the beginning of the project.
-- **Github:** An off-site repository used to store the source code for the project.
+- **Git:** Used for version control from the very beginning of the project.
+- **Github:** A remote repository used to store the source code for the project.
 - **Github Pages:** GitHub's own hosting service used to deploy the project.
 - **VsCode:** Source code editor used to write, edit, test, and debug the source code.
 - **Balsamiq:** A wireframe/mockup application that allowed me to create the basic structural design of the project. 
@@ -95,7 +95,7 @@ The result of the HTML Validator can be seen in the image below:
 
 ### CSS Validator
 
-The CSS Validator comes back with errors, but on closer inspection it is clear that all the CSS errors come from the Bootstrap framework, as highlighted in the image below:
+The CSS Validator comes back with errors, but on closer inspection, it is clear that all the CSS errors come from the Bootstrap framework, as highlighted in the image below:
 
 ![CSS Validation](designDocs/validators/CaptureCSS.PNG)
 
@@ -111,7 +111,7 @@ The website was tested on these browsers:
 
 The site works as intended for Chrome and Firefox. 
 
-But the IE, Edge, and Opera versions have issues. On Edge the buttons aren't aligned in their proper places, while on IE in addition to the out of alignment buttons, the jumbotron is completely resized as to where it's height is too high and it's width is too small, along with that all the SVGs are either cropped, or moved the left with the photos as well. On Opera the tabs are a bit squished together.
+But the IE, Edge, and Opera versions have issues. On Edge the buttons aren't aligned in their proper places, while on IE in addition to the out of alignment buttons, the jumbotron is completely resized as to where it's height is too high and it's width is too small, along with that all the SVGs are either cropped, or moved the left with the photos as well. On Opera, the tabs are a bit squished together.
 
 ## Deployment
 
@@ -125,7 +125,7 @@ And the finished, live website can be found [**here**](https://zylashro.github.i
 
 Looking back at this project, I am filled with both delight and a tinge of regret.
 
-For this project I wanted to create a website that would utilize multiple facets of front end development, not including JS. And with that I came to this idea which does consists of different parts. The only issue with it is that this project is better suited for the Milestone Two project in the Code Institute educational curriculum.
+For this project, I wanted to create a website that would utilize multiple facets of front end development, not including JS. And with that, I came to this idea which does consists of different parts. The only issue with it is that this project is better suited for the Milestone Two project in the Code Institute educational curriculum.
 
 I'll be honest, I was a bit stuck on just what kind of project I could make for a static HTML and CSS website. A portfolio website wasn't something I was interested in doing, and with time running out I threw together this, not to say I didn't put in time into planning, but you get the picture. 
 
