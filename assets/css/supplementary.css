@@ -23,6 +23,7 @@
     text-transform: uppercase;
     font-size: 25px;
     font-weight: 400;
+    text-align: center;
 }
 
 
@@ -77,6 +78,10 @@
 /* Media Queries */
 
 @media(min-width: 769px) {
+    .supplementary-heading {
+        text-align: start;
+    }
+
     .supplementary-container {
         padding-top: 60px;
     }
