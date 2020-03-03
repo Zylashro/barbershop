@@ -70,8 +70,10 @@ Upon a peek, you can see that there were changes made for the final version; som
     - A checkbox group, with custom JS written to check and validate the input,
     - Radio buttons,
     - And two more forms with the ability to attach a file.
-4. Form validation.
-5. A Google Maps embedded into the site.
+4. Collapsible "Read More" buttons in two tabs.
+5. Tab-able elements.
+6. Form validation.
+7. A Google Maps embedded into the site.
 
 ## Technologies
 
