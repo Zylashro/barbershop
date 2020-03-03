@@ -45,12 +45,6 @@
     color: rgba(29, 27, 27, 0.5);
 }
 
-.main-nav-link:hover {
-    background-color: #504e4e;
-    color: #6e6a6a;
-    border-radius: 12px;
-}
-
 .active {
     font-weight: 700;
     color: #ffffff;
@@ -62,6 +56,24 @@
 
 .navbar-collapse {
     align-items: center;
+}
+
+/* Hover and Focus */
+
+.navbar-brand:hover, 
+.navbar-brand:focus {
+    background-color: #504e4e;
+    color: #6e6a6a;
+    border-radius: 12px;
+    outline: none;
+}
+
+.main-nav-link:hover, 
+.main-nav-link:focus {
+    background-color: #504e4e;
+    color: #6e6a6a;
+    border-radius: 12px;
+    outline: none;
 }
 
 /* Media Queries */
