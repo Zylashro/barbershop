@@ -219,9 +219,11 @@
 .time-input:checked + .time-label {
     color: #504e4e;
     background: #eeeeee;
+    border: 1px solid #212529;
 }
 
 .time-input {
+    margin: 0;
     width: 1px;
     height: 1px;
     outline: none;
