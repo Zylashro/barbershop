@@ -70,7 +70,11 @@
 /* Checkbox */
 
 .checkbox-field-default {
-    display: none;
+    width: 1px;
+    height: 1px;
+    outline: none;
+    border: 1px solid transparent;
+    background-color: transparent;
 }
 
 .checkbox-field-custom::before {
@@ -98,7 +102,11 @@
 /* Radio button */
 
 .radio-field-default {
-    display: none;
+    width: 1px;
+    height: 1px;
+    outline: none;
+    border: 1px solid transparent;
+    background-color: transparent;
 }
 
 .radio-field-custom::before {
@@ -123,7 +131,7 @@
     background-color: #eeeeee;
 }
 
-/* Button */
+/* Buttons */
 
 .btn {
     color: #eeeeee;
@@ -132,11 +140,6 @@
 .btn-submit {
     margin-bottom: 16px;
     background: #6e6a6a;
-}
-
-.btn-submit:hover {
-    color: #212529;
-    background-color: #504e4e; 
 }
 
 /* Read More */
@@ -213,14 +216,17 @@
     letter-spacing: 1px;
 }
 
-.time-label:hover {
-    color: #504e4e;
-    background: #6e6a6a;
-}
-
 .time-input:checked + .time-label {
     color: #504e4e;
     background: #eeeeee;
+}
+
+.time-input {
+    width: 1px;
+    height: 1px;
+    outline: none;
+    border: none;
+    background-color: transparent;
 }
 
 /* Service Cancel */
@@ -241,6 +247,52 @@
 /* Block */
 .sm-block {
     display: none;
+}
+
+/* Hover and Focus */
+
+.nav-tab:hover, 
+.nav-tab:focus {
+    color: #eeeeee;
+    background-color: #6e6a6a;
+    outline: none; 
+}
+
+.checkbox-field-default:focus + .checkbox-field-custom::before {
+    outline: none;
+    box-shadow: 0 0 0 3px #eeeeee;
+}
+
+.radio-field-default:focus + .radio-field-custom::before {
+    outline: none;
+    box-shadow: 0 0 0 3px #eeeeee;
+}
+
+.read-more-btn:hover, 
+.read-more-btn:focus {
+    color: #212529;
+    box-shadow: 0 0 0 1px #212529;
+}
+
+.btn-submit:hover, 
+.btn-submit:focus {
+    color: #212529;
+    background-color: #504e4e;
+    box-shadow: 0 0 0 1px #212529;
+}
+
+.time-label:hover {
+    color: #504e4e;
+    background: #6e6a6a;
+    outline: none;
+    box-shadow: 0 0 0 1px #212529;
+}
+
+.time-input:focus {
+    color: #504e4e;
+    background: #6e6a6a;
+    outline: none;
+    box-shadow: 0 0 0 1px #212529;
 }
 
 /* Media Queries */

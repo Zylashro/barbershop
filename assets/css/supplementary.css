@@ -49,11 +49,6 @@
     background-color: #504e4e;
 }
 
-.btn-submit:hover {
-    color: #212529;
-    background-color: #6e6a6a; 
-}
-
 /* Side-nav */
 
 .side-nav-container {
@@ -70,9 +65,21 @@
     background-color: #504e4e;
 }
 
-.side-nav-styling:hover {
+
+/* Hover and Focus */
+
+.btn-submit:hover, 
+.btn-submit:focus {
     color: #212529;
     background-color: #6e6a6a;
+    box-shadow: 0 0 0 1px #212529;
+}
+
+.side-nav-styling:hover, 
+.side-nav-styling:focus {
+    color: #212529;
+    background-color: #6e6a6a;
+    outline: none;
 }
 
 /* Media Queries */
