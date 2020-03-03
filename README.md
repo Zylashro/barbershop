@@ -18,9 +18,10 @@ This project is designed as a service website for an imaginary barber   shop, *H
     - [**HTML Validator**](#html-validator)
     - [**CSS Validator**](#css-validator)
     - [**Browsers**](#browsers)
-6. [**Deployment**](#deployment)
-7. [**Self-Reflection**](#self-reflection)
-8. [**Credits**](#credits)
+6. [**How To Tab**](#how-to-tab)
+7. [**Deployment**](#deployment)
+8. [**Self-Reflection**](#self-reflection)
+9. [**Credits**](#credits)
     - [**Images**](#images)
     - [**SVGs**](#svgs)
     - [**Icons**](#icons)
@@ -112,6 +113,18 @@ The website was tested on these browsers:
 The site works as intended for Chrome and Firefox. 
 
 But the IE, Edge, and Opera versions have issues. On Edge the buttons aren't aligned in their proper places, while on IE in addition to the out of alignment buttons, the jumbotron is completely resized as to where it's height is too high and it's width is too small, along with that all the SVGs are either cropped, or moved the left with the photos as well. On Opera, the tabs are a bit squished together.
+
+## How To Tab
+
+While making this project, I wanted it to be as accessible as possible. For this reason, all the images and icons have an "alt" tag attached to them. But I also wanted the user to be able to tab through all the clickable elements of my site. I am glad to say that I have made this possible, but it doesn't come without its fair share of complicated controls.
+
+Yes, clicking the tab key will allow the user to tab through each page from top to bottom, left to right, but once on the book page is where the controls get a bit wonky. In order to check either a checkbox or radio button you will need to press the space bar in order to select the option. This can come off as confusing as all the other elements, including the "Read More" buttons right next to them, are selected by pressing the enter key.
+
+Another frustrating control aspect comes from the radio buttons, that are also coincidentally found on the book page. The first radio button field on the barber tab functions a bit weird, you are able to tab through each radio button separately except for the second radio button which cannot be tabbed to for some reason. Another thing to mention is that when one of these radio buttons is selected, the user can no longer tab to any of the other radio buttons. Instead, the user will need to use the up and down arrow keys to move, and in doing so select, to another radio button.
+
+The second radio button field on the time tab works a bit differently. Unlike the first radio button field where all but one button can be tabbed to, only the first radio button can be tabbed to in this case. If the user tries to tab to another radio button after the first one, they will be tabbed to the submit button instead. In order for the user to go through the second radio button field, they will need to select the first radio button and then use the up and down arrow keys to move, and select, to the other radio buttons. This issue is most likely present as this radio button field is an unordered list instead of individual buttons like the first field.
+
+Yes, this makes the two radio button fields a bit difficult to move around without the use of a mouse or touch screen, for that I do apologize. It is a known issue, and will most likely be fixed or revamped in a future iteration of the project.
 
 ## Deployment
 
